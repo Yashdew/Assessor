@@ -1,0 +1,5962 @@
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 
+Yash Dewangan
+ 
+ 
+yashdewangan123456@gmail.com 
+| +91
+-
+8602842290 
+| 
+LinkedIn
+ 
+| 
+Github
+ 
+ 
+ 
+EDUCATION
+ 
+ 
+SMT. KASHIBAI NAVALE 
+COLLEGE OF ENGINEERING 
+ 
+ 
+B
+E
+ 
+in 
+Information Technology
+ 
+2018
+-
+2022 | 
+Pune, MH
+ 
+ 
+Cum. GPA: 
+8.14
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+12
+th
+ 
+CBSE
+ 
+ 
+201
+8
+ 
+|
+ 
+Jabalpur
+, 
+MP
+ 
+ 
+Percentage: 7
+0.6
+%
+ 
+ 
+KENDRIYA VIDYALAYA, CMM
+ 
+10
+th
+ 
+CBSE
+ 
+ 
+2016 | Jabalpur, MP
+ 
+ 
+Percentage: 7.6
+ 
+CGPA
+ 
+ 
+SKILLS
+ 
+PROGRAMMING
+ 
+Language
+s
+:
+ 
+ 
+
+ 
+C 
+| 
+C++
+  
+| 
+Python
+ 
+| 
+Git
+ 
+| HTML | CSS
+ 
+
+ 
+Data Structures
+ 
+
+ 
+Algorithms 
+Basic
+ 
+
+ 
+ 
+Complexity Analysis
+ 
+
+ 
+O
+bject
+ 
+O
+riented
+ 
+Programming
+ 
+| 
+O
+bject
+ 
+O
+riented
+ 
+Design
+ 
+| 
+Algorithm Design
+ 
+| 
+ 
+Framework
+:
+ 
+ 
+
+ 
+Flask | Django 
+ 
+Database
+:
+ 
+ 
+
+ 
+SQL
+(
+Relational Databases
+)
+ 
+| MongoDB | 
+Firebase
+ 
+ 
+LINKS
+ 
+ 
+Github:/
+/ 
+Yashdew
+ 
+ 
+CodeChef://
+ 
+Yashdew
+ 
+Leetcode:// 
+Yashdew
+ 
+SPOJ:// 
+Yashdew
+ 
+ 
+ 
+ 
+Codeforces://
+ 
+Yashdew
+ 
+ 
+GFG
+://
+ 
+Yashdew
+ 
+ 
+E
+XPE
+R
+IENCE
+ 
+ 
+Hack Club 
+ 
+| 
+Lead
+ 
+ 
+ 
+April 
+202
+0
+ 
+
+ 
+Present 
+(
+Club Repo
+)
+ 
+ 
+
+ 
+Working on building a
+ 
+multiple project for 
+college
+.
+ 
+
+ 
+Working collaboratively with a teammate and 
+brainstorming the new ideas for the project.
+ 
+ 
+
+ 
+Responsible for reviewing the code, giving the 
+demo of the application to the mentors and 
+fellow developers.
+ 
+ 
+
+ 
+Responsible for building backend of the 
+project
+s
+.
+ 
+ 
+ 
+PROJECTS
+ 
+ 
+CHATISTICS
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+Dec
+ 
+202
+0
+ 
+-
+ 
+Feb
+ 
+2021
+ 
+ 
+
+ 
+A
+n
+ 
+open
+-
+source 
+WhatsApp
+ 
+chats analyser and statistics.
+ 
+
+ 
+A
+pplication, 
+which provides 
+various
+ 
+meaningful insights
+.
+ 
+
+ 
+Time complexity reduces from 15 minutes to 5 seconds.
+ 
+
+ 
+Used 
+Flask 
+for implementing backend REST APIs with 
+firebase 
+database
+ 
+for analysis of traffic
+.
+ 
+
+ 
+Pandas for data 
+pre
+-
+processing
+.
+ 
+ 
+
+ 
+Used 
+Next
+JS and 
+Bulma 
+UI for frontend.
+ 
+
+ 
+500+ users and 30 stars on 
+GitHub
+.
+ 
+ 
+ 
+ATTENDANCE
+-
+TRACKER
+ 
+GitHub
+ 
+Live URL
+ 
+ 
+July
+ 
+202
+0
+ 
+
+ 
+A
+ug
+ 
+202
+0
+ 
+ 
+
+ 
+A full stack web application 
+for monitoring the attendance 
+in Microsoft Teams from logs file of 
+the meeting. (
+Sample
+)
+ 
+
+ 
+Optimization of code from 2 minutes to 3 seconds in Data 
+pre
+-
+processing.
+ 
+
+ 
+Worked on building the 
+major 
+backend p
+art and frontend
+.
+ 
+
+ 
+Used 
+Flask
+ 
+for implementing
+ 
+Backend
+ 
+and HTML, 
+CSS & JS for frontend
+.
+ 
+
+ 
+Used 
+Mongo DB
+ 
+and Google sheet API for 
+Database.
+ 
+
+ 
+Data pre
+-
+processing of large logs files for 
+calculating 
+time stamps of students using pandas
+ 
+ 
+ 
+
+ 
+50+ users in our college.
+ 
+ 
+ACHIEVEMENTS
+ 
+ 
+ 
+
+ 
+Codechef
+ 
+-
+ 
+Maximum rating 
+1603
+ 
+(
+3
+-
+star)
+.
+ 
+
+ 
+Codechef 
+
+ 
+March Lunchtime 2021 Div
+-
+3, secured a rank of 
+825 out of 7000+ 
+participants
+.
+ 
+
+ 
+Leetcode 
+
+ 
+1
+5
+0+ Solved Questions.
+ 
+
+ 
+2
+5
+0+ Solved Questions on GFG,
+ 
+Codechef
+, 
+SPOJ
+ 
+and 
+Codeforces
+.
+ 
+
+ 
+Participated in Google kickstart
+ 
+2021 Round
+ 
+A
+, 
+Round
+ 
+C
+ 
+& 
+Round D
+.
+ 
+
+ 
+Secured 1
+st
+ 
+rank 
+out of 30+ participants
+ 
+in Sca
+ler Edge 
+Apex 2021
+. 
+(SKN Edition)
+ 
+
+ 
+Represented Hack Club SKN projects in Hack Club 
+ 
+Asia 
+   
+Summit
+ 
+2021
+.
+ 
+
+ 
+Participated in more than 30+ coding 
+c
+ompetition.
+ 
+ 
+CERTIFICATION
+ 
+
+ 
+Python
+ 
+Bootcamp(
+certificate
+)
+ 
+ 
+HOBBIES 
+ 
+
+ 
+Photography and Video editing
+ 
+
+ 
+Traveling and exploring new places.
+ 
+
+ 
+Gaming
+ 

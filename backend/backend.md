@@ -11,3 +11,7 @@ pip install -r requirements.txt
 ```Local Host
 python manage.py runserver
 ```
+
+``` New Package or New Library
+pip freeze > requirements. txt
+```
