@@ -13,5 +13,5 @@ python manage.py runserver
 ```
 
 ``` New Package or New Library
-pip freeze > requirements. txt
+pip freeze > requirements.txt
 ```
