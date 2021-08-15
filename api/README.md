@@ -2,10 +2,10 @@
 
 ```bash
 cd .\backend\
-pip install virtual env
+pip install virtualenv
 virtualenv env
 env\Scripts\activate
-pip install -r requirements.txt
+pip install -r ../requirements.txt
 ```
 
 ```Local Host
