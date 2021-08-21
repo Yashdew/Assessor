@@ -12,13 +12,14 @@ cryptography==3.4.7
 cymem==2.0.5
 Django==3.2.6
 docx2txt==0.8
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
 idna==3.2
 Jinja2==3.0.1
 joblib==1.0.1
 jsonschema==3.2.0
 MarkupSafe==2.0.1
 murmurhash==1.0.5
-nltk==2.3.5
+nltk==3.6.2
 numpy==1.21.1
 packaging==21.0
 pandas==1.3.1
@@ -51,4 +52,3 @@ typing-extensions==3.10.0.0
 urllib3==1.26.6
 wasabi==0.8.2
 pdfx==1.4.1
-resume-parser==0.8.1

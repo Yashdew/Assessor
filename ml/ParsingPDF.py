@@ -1,10 +1,8 @@
 import PyPDF2
 import pdfx 
-from resume_parser import resumeparse
 
 pdffileobj=open('C:/Users/Kulkarni/Desktop/Atharva Nitin Kulkarni resume.pdf','rb')
 pdf = pdfx.PDFx("C:/Users/Kulkarni/Desktop/Atharva Nitin Kulkarni resume.pdf")
-# data = resumeparse.read_file('C:/Users/Kulkarni/Desktop/Atharva Nitin Kulkarni resume.pdf')
 
 #create reader variable that will read the pdffileobj
 pdfreader=PyPDF2.PdfFileReader(pdffileobj)
