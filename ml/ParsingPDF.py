@@ -27,9 +27,6 @@ text=pageobj.extractText()
 #go to the file location copy the path by right clicking on the file
 #click properties and copy the location path and paste it here.
 #put "\\your_txtfilename"
-file1=open(r"Resume Text.txt","a")
-file1.writelines(text)
-
 
 import nltk            
 
@@ -72,6 +69,10 @@ nlp = spacy.load("en_core_web_sm")
 doc = nlp(strVar)
 
 for ent in doc.ents:
-    print(ent.text, ent.start_char, ent.end_char, ent.label_)
+    print(ent.text," ", ent.start_char," ", ent.end_char," ", ent.label_," ",)
 
+# for chunk in doc.noun_chunks:
+#     print(chunk.text, chunk.root.text, chunk.root.dep_,chunk.root.head.text)
 
+file1=open(r"Resume Text.txt","a")
+file1.writelines(strVar)
