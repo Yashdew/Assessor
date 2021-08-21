@@ -5960,3 +5960,2474 @@ Traveling and exploring new places.
  
 Gaming
  
+Atharva Kulkarni
+ 
+ 
+Email:
+ 
+mailmenehakulkarni@gmail.com
+ 
+| 
+Github:
+ 
+AK9175
+ 
+| 
+LinkedIn:
+ 
+Atharva
+ 
+ 
+ 
+ 
+EDUCATION :
+ 
+ 
+Smt. Kashibai Navale 
+College of 
+Engineering (SPPU)
+ 
+ 
+B.E in Information Technology 
+A
+ug 2018
+-
+Present, Pune 
+CGPA: 
+8.94
+/10
+ 
+(Till 3r
+d Year)
+ 
+ 
+Sinhgad College Of 
+Science, Pune
+ 
+ 
+May 2018 
+-
+ 
+HSC 
+-
+ 
+63.23%
+ 
+ 
+ 
+ 
+PROJECTS:
+ 
+ 
+CHATISTICS
+    
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Firebase
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Extraction
+, 
+Data
+-
+Cleaning
+, 
+Data
+-
+Preprocessing
+.
+ 
+ 
+
+ 
+Using 
+Pandas
+ 
+extracted all insights and 
+analytics.
+ 
+ 
+
+ 
+Created well structured 
+API
+ 
+providing data.
+ 
+ 
+
+ 
+Refactored the existing code by 
+DRY
+ 
+concept to 
+reduce time taken from 
+1 minute
+ 
+to 
+10 seconds
+ 
+ 
+
+ 
+More than 300 successfull Chat Analysis and 27 stars 
+on GitHub.
+ 
+ 
+Sinhgad
+ 
+Spring Dale 
+Highschool, Pune
+ 
+ 
+May 2016 
+-
+ 
+SSC 
+-
+ 
+87%
+ 
+ 
+ 
+SKILLS :
+ 
+ 
+Programming
+ 
+ 
+Languages:
+ 
+ 
+
+ 
+C++
+ 
+
+ 
+C
+ 
+ 
+
+ 
+Python
+ 
+ 
+
+ 
+SQL
+ 
+ 
+Technologies:
+ 
+ 
+
+ 
+GIT
+ 
+Familiar:
+ 
+ 
+
+ 
+REST
+-
+API
+ 
+
+ 
+Pandas
+ 
+ 
+ 
+Profile Links :
+ 
+ 
+
+ 
+Github:
+ 
+AK9175
+ 
+
+ 
+Linkedin:
+ 
+Atharva Kulkarni
+ 
+ 
+
+ 
+CodeChef:
+ 
+ak9175
+ 
+ 
+
+ 
+Leetcode:
+ 
+Atharva Kulkarni
+ 
+ 
+ 
+ATTENDANCE TRACKER
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Google Sheets
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Preprocessing
+ 
+involving CSV file.
+ 
+ 
+
+ 
+Used 
+Google Sheet API
+ 
+to 
+maneuver and 
+record attendance of students.
+ 
+ 
+
+ 
+Created In
+-
+app login system for professors.
+ 
+ 
+
+ 
+Used by college faculties for a period of 1 semester.
+ 
+ 
+SIMPLE PROFILE APP
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Created a simple Database handler web app 
+with 
+Node.js
+ 
+and 
+MongoDB.
+ 
+ 
+ 
+ACHIEVEMENTS:
+ 
+ 
+
+ 
+CodeChef (Maximum Rating :
+ 
+1627
+, 3 
+star).
+ 
+ 
+
+ 
+Solved 150+ Problems on CodeChef, Leetcode, 
+GeeksforGeeks.
+ 
+ 
+
+ 
+Represented Hack Club SKN project in Hack Club Asia 
+Summit 2021
+ 
+ 
+
+ 
+Participated in more than 30 coding competitions.
+ 
+ 
+ 
+HOBBIES :
+ 
+ 
+
+ 
+Cooking
+ 
+ 
+
+ 
+Reading
+ 
+Atharva Kulkarni
+ 
+ 
+Email:
+ 
+mailmenehakulkarni@gmail.com
+ 
+| 
+Github:
+ 
+AK9175
+ 
+| 
+LinkedIn:
+ 
+Atharva
+ 
+ 
+ 
+ 
+EDUCATION :
+ 
+ 
+Smt. Kashibai Navale 
+College of 
+Engineering (SPPU)
+ 
+ 
+B.E in Information Technology 
+A
+ug 2018
+-
+Present, Pune 
+CGPA: 
+8.94
+/10
+ 
+(Till 3r
+d Year)
+ 
+ 
+Sinhgad College Of 
+Science, Pune
+ 
+ 
+May 2018 
+-
+ 
+HSC 
+-
+ 
+63.23%
+ 
+ 
+ 
+ 
+PROJECTS:
+ 
+ 
+CHATISTICS
+    
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Firebase
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Extraction
+, 
+Data
+-
+Cleaning
+, 
+Data
+-
+Preprocessing
+.
+ 
+ 
+
+ 
+Using 
+Pandas
+ 
+extracted all insights and 
+analytics.
+ 
+ 
+
+ 
+Created well structured 
+API
+ 
+providing data.
+ 
+ 
+
+ 
+Refactored the existing code by 
+DRY
+ 
+concept to 
+reduce time taken from 
+1 minute
+ 
+to 
+10 seconds
+ 
+ 
+
+ 
+More than 300 successfull Chat Analysis and 27 stars 
+on GitHub.
+ 
+ 
+Sinhgad
+ 
+Spring Dale 
+Highschool, Pune
+ 
+ 
+May 2016 
+-
+ 
+SSC 
+-
+ 
+87%
+ 
+ 
+ 
+SKILLS :
+ 
+ 
+Programming
+ 
+ 
+Languages:
+ 
+ 
+
+ 
+C++
+ 
+
+ 
+C
+ 
+ 
+
+ 
+Python
+ 
+ 
+
+ 
+SQL
+ 
+ 
+Technologies:
+ 
+ 
+
+ 
+GIT
+ 
+Familiar:
+ 
+ 
+
+ 
+REST
+-
+API
+ 
+
+ 
+Pandas
+ 
+ 
+ 
+Profile Links :
+ 
+ 
+
+ 
+Github:
+ 
+AK9175
+ 
+
+ 
+Linkedin:
+ 
+Atharva Kulkarni
+ 
+ 
+
+ 
+CodeChef:
+ 
+ak9175
+ 
+ 
+
+ 
+Leetcode:
+ 
+Atharva Kulkarni
+ 
+ 
+ 
+ATTENDANCE TRACKER
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Google Sheets
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Preprocessing
+ 
+involving CSV file.
+ 
+ 
+
+ 
+Used 
+Google Sheet API
+ 
+to 
+maneuver and 
+record attendance of students.
+ 
+ 
+
+ 
+Created In
+-
+app login system for professors.
+ 
+ 
+
+ 
+Used by college faculties for a period of 1 semester.
+ 
+ 
+SIMPLE PROFILE APP
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Created a simple Database handler web app 
+with 
+Node.js
+ 
+and 
+MongoDB.
+ 
+ 
+ 
+ACHIEVEMENTS:
+ 
+ 
+
+ 
+CodeChef (Maximum Rating :
+ 
+1627
+, 3 
+star).
+ 
+ 
+
+ 
+Solved 150+ Problems on CodeChef, Leetcode, 
+GeeksforGeeks.
+ 
+ 
+
+ 
+Represented Hack Club SKN project in Hack Club Asia 
+Summit 2021
+ 
+ 
+
+ 
+Participated in more than 30 coding competitions.
+ 
+ 
+ 
+HOBBIES :
+ 
+ 
+
+ 
+Cooking
+ 
+ 
+
+ 
+Reading
+ 
+Atharva Kulkarni
+ 
+ 
+Email:
+ 
+mailmenehakulkarni@gmail.com
+ 
+| 
+Github:
+ 
+AK9175
+ 
+| 
+LinkedIn:
+ 
+Atharva
+ 
+ 
+ 
+ 
+EDUCATION :
+ 
+ 
+Smt. Kashibai Navale 
+College of 
+Engineering (SPPU)
+ 
+ 
+B.E in Information Technology 
+A
+ug 2018
+-
+Present, Pune 
+CGPA: 
+8.94
+/10
+ 
+(Till 3r
+d Year)
+ 
+ 
+Sinhgad College Of 
+Science, Pune
+ 
+ 
+May 2018 
+-
+ 
+HSC 
+-
+ 
+63.23%
+ 
+ 
+ 
+ 
+PROJECTS:
+ 
+ 
+CHATISTICS
+    
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Firebase
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Extraction
+, 
+Data
+-
+Cleaning
+, 
+Data
+-
+Preprocessing
+.
+ 
+ 
+
+ 
+Using 
+Pandas
+ 
+extracted all insights and 
+analytics.
+ 
+ 
+
+ 
+Created well structured 
+API
+ 
+providing data.
+ 
+ 
+
+ 
+Refactored the existing code by 
+DRY
+ 
+concept to 
+reduce time taken from 
+1 minute
+ 
+to 
+10 seconds
+ 
+ 
+
+ 
+More than 300 successfull Chat Analysis and 27 stars 
+on GitHub.
+ 
+ 
+Sinhgad
+ 
+Spring Dale 
+Highschool, Pune
+ 
+ 
+May 2016 
+-
+ 
+SSC 
+-
+ 
+87%
+ 
+ 
+ 
+SKILLS :
+ 
+ 
+Programming
+ 
+ 
+Languages:
+ 
+ 
+
+ 
+C++
+ 
+
+ 
+C
+ 
+ 
+
+ 
+Python
+ 
+ 
+
+ 
+SQL
+ 
+ 
+Technologies:
+ 
+ 
+
+ 
+GIT
+ 
+Familiar:
+ 
+ 
+
+ 
+REST
+-
+API
+ 
+
+ 
+Pandas
+ 
+ 
+ 
+Profile Links :
+ 
+ 
+
+ 
+Github:
+ 
+AK9175
+ 
+
+ 
+Linkedin:
+ 
+Atharva Kulkarni
+ 
+ 
+
+ 
+CodeChef:
+ 
+ak9175
+ 
+ 
+
+ 
+Leetcode:
+ 
+Atharva Kulkarni
+ 
+ 
+ 
+ATTENDANCE TRACKER
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Google Sheets
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Preprocessing
+ 
+involving CSV file.
+ 
+ 
+
+ 
+Used 
+Google Sheet API
+ 
+to 
+maneuver and 
+record attendance of students.
+ 
+ 
+
+ 
+Created In
+-
+app login system for professors.
+ 
+ 
+
+ 
+Used by college faculties for a period of 1 semester.
+ 
+ 
+SIMPLE PROFILE APP
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Created a simple Database handler web app 
+with 
+Node.js
+ 
+and 
+MongoDB.
+ 
+ 
+ 
+ACHIEVEMENTS:
+ 
+ 
+
+ 
+CodeChef (Maximum Rating :
+ 
+1627
+, 3 
+star).
+ 
+ 
+
+ 
+Solved 150+ Problems on CodeChef, Leetcode, 
+GeeksforGeeks.
+ 
+ 
+
+ 
+Represented Hack Club SKN project in Hack Club Asia 
+Summit 2021
+ 
+ 
+
+ 
+Participated in more than 30 coding competitions.
+ 
+ 
+ 
+HOBBIES :
+ 
+ 
+
+ 
+Cooking
+ 
+ 
+
+ 
+Reading
+ 
+Atharva Kulkarni
+ 
+ 
+Email:
+ 
+mailmenehakulkarni@gmail.com
+ 
+| 
+Github:
+ 
+AK9175
+ 
+| 
+LinkedIn:
+ 
+Atharva
+ 
+ 
+ 
+ 
+EDUCATION :
+ 
+ 
+Smt. Kashibai Navale 
+College of 
+Engineering (SPPU)
+ 
+ 
+B.E in Information Technology 
+A
+ug 2018
+-
+Present, Pune 
+CGPA: 
+8.94
+/10
+ 
+(Till 3r
+d Year)
+ 
+ 
+Sinhgad College Of 
+Science, Pune
+ 
+ 
+May 2018 
+-
+ 
+HSC 
+-
+ 
+63.23%
+ 
+ 
+ 
+ 
+PROJECTS:
+ 
+ 
+CHATISTICS
+    
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Firebase
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Extraction
+, 
+Data
+-
+Cleaning
+, 
+Data
+-
+Preprocessing
+.
+ 
+ 
+
+ 
+Using 
+Pandas
+ 
+extracted all insights and 
+analytics.
+ 
+ 
+
+ 
+Created well structured 
+API
+ 
+providing data.
+ 
+ 
+
+ 
+Refactored the existing code by 
+DRY
+ 
+concept to 
+reduce time taken from 
+1 minute
+ 
+to 
+10 seconds
+ 
+ 
+
+ 
+More than 300 successfull Chat Analysis and 27 stars 
+on GitHub.
+ 
+ 
+Sinhgad
+ 
+Spring Dale 
+Highschool, Pune
+ 
+ 
+May 2016 
+-
+ 
+SSC 
+-
+ 
+87%
+ 
+ 
+ 
+SKILLS :
+ 
+ 
+Programming
+ 
+ 
+Languages:
+ 
+ 
+
+ 
+C++
+ 
+
+ 
+C
+ 
+ 
+
+ 
+Python
+ 
+ 
+
+ 
+SQL
+ 
+ 
+Technologies:
+ 
+ 
+
+ 
+GIT
+ 
+Familiar:
+ 
+ 
+
+ 
+REST
+-
+API
+ 
+
+ 
+Pandas
+ 
+ 
+ 
+Profile Links :
+ 
+ 
+
+ 
+Github:
+ 
+AK9175
+ 
+
+ 
+Linkedin:
+ 
+Atharva Kulkarni
+ 
+ 
+
+ 
+CodeChef:
+ 
+ak9175
+ 
+ 
+
+ 
+Leetcode:
+ 
+Atharva Kulkarni
+ 
+ 
+ 
+ATTENDANCE TRACKER
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Google Sheets
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Preprocessing
+ 
+involving CSV file.
+ 
+ 
+
+ 
+Used 
+Google Sheet API
+ 
+to 
+maneuver and 
+record attendance of students.
+ 
+ 
+
+ 
+Created In
+-
+app login system for professors.
+ 
+ 
+
+ 
+Used by college faculties for a period of 1 semester.
+ 
+ 
+SIMPLE PROFILE APP
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Created a simple Database handler web app 
+with 
+Node.js
+ 
+and 
+MongoDB.
+ 
+ 
+ 
+ACHIEVEMENTS:
+ 
+ 
+
+ 
+CodeChef (Maximum Rating :
+ 
+1627
+, 3 
+star).
+ 
+ 
+
+ 
+Solved 150+ Problems on CodeChef, Leetcode, 
+GeeksforGeeks.
+ 
+ 
+
+ 
+Represented Hack Club SKN project in Hack Club Asia 
+Summit 2021
+ 
+ 
+
+ 
+Participated in more than 30 coding competitions.
+ 
+ 
+ 
+HOBBIES :
+ 
+ 
+
+ 
+Cooking
+ 
+ 
+
+ 
+Reading
+ 
+Atharva Kulkarni
+ 
+ 
+Email:
+ 
+mailmenehakulkarni@gmail.com
+ 
+| 
+Github:
+ 
+AK9175
+ 
+| 
+LinkedIn:
+ 
+Atharva
+ 
+ 
+ 
+ 
+EDUCATION :
+ 
+ 
+Smt. Kashibai Navale 
+College of 
+Engineering (SPPU)
+ 
+ 
+B.E in Information Technology 
+A
+ug 2018
+-
+Present, Pune 
+CGPA: 
+8.94
+/10
+ 
+(Till 3r
+d Year)
+ 
+ 
+Sinhgad College Of 
+Science, Pune
+ 
+ 
+May 2018 
+-
+ 
+HSC 
+-
+ 
+63.23%
+ 
+ 
+ 
+ 
+PROJECTS:
+ 
+ 
+CHATISTICS
+    
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Firebase
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Extraction
+, 
+Data
+-
+Cleaning
+, 
+Data
+-
+Preprocessing
+.
+ 
+ 
+
+ 
+Using 
+Pandas
+ 
+extracted all insights and 
+analytics.
+ 
+ 
+
+ 
+Created well structured 
+API
+ 
+providing data.
+ 
+ 
+
+ 
+Refactored the existing code by 
+DRY
+ 
+concept to 
+reduce time taken from 
+1 minute
+ 
+to 
+10 seconds
+ 
+ 
+
+ 
+More than 300 successfull Chat Analysis and 27 stars 
+on GitHub.
+ 
+ 
+Sinhgad
+ 
+Spring Dale 
+Highschool, Pune
+ 
+ 
+May 2016 
+-
+ 
+SSC 
+-
+ 
+87%
+ 
+ 
+ 
+SKILLS :
+ 
+ 
+Programming
+ 
+ 
+Languages:
+ 
+ 
+
+ 
+C++
+ 
+
+ 
+C
+ 
+ 
+
+ 
+Python
+ 
+ 
+
+ 
+SQL
+ 
+ 
+Technologies:
+ 
+ 
+
+ 
+GIT
+ 
+Familiar:
+ 
+ 
+
+ 
+REST
+-
+API
+ 
+
+ 
+Pandas
+ 
+ 
+ 
+Profile Links :
+ 
+ 
+
+ 
+Github:
+ 
+AK9175
+ 
+
+ 
+Linkedin:
+ 
+Atharva Kulkarni
+ 
+ 
+
+ 
+CodeChef:
+ 
+ak9175
+ 
+ 
+
+ 
+Leetcode:
+ 
+Atharva Kulkarni
+ 
+ 
+ 
+ATTENDANCE TRACKER
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Google Sheets
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Preprocessing
+ 
+involving CSV file.
+ 
+ 
+
+ 
+Used 
+Google Sheet API
+ 
+to 
+maneuver and 
+record attendance of students.
+ 
+ 
+
+ 
+Created In
+-
+app login system for professors.
+ 
+ 
+
+ 
+Used by college faculties for a period of 1 semester.
+ 
+ 
+SIMPLE PROFILE APP
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Created a simple Database handler web app 
+with 
+Node.js
+ 
+and 
+MongoDB.
+ 
+ 
+ 
+ACHIEVEMENTS:
+ 
+ 
+
+ 
+CodeChef (Maximum Rating :
+ 
+1627
+, 3 
+star).
+ 
+ 
+
+ 
+Solved 150+ Problems on CodeChef, Leetcode, 
+GeeksforGeeks.
+ 
+ 
+
+ 
+Represented Hack Club SKN project in Hack Club Asia 
+Summit 2021
+ 
+ 
+
+ 
+Participated in more than 30 coding competitions.
+ 
+ 
+ 
+HOBBIES :
+ 
+ 
+
+ 
+Cooking
+ 
+ 
+
+ 
+Reading
+ 
+Atharva Kulkarni
+ 
+ 
+Email:
+ 
+mailmenehakulkarni@gmail.com
+ 
+| 
+Github:
+ 
+AK9175
+ 
+| 
+LinkedIn:
+ 
+Atharva
+ 
+ 
+ 
+ 
+EDUCATION :
+ 
+ 
+Smt. Kashibai Navale 
+College of 
+Engineering (SPPU)
+ 
+ 
+B.E in Information Technology 
+A
+ug 2018
+-
+Present, Pune 
+CGPA: 
+8.94
+/10
+ 
+(Till 3r
+d Year)
+ 
+ 
+Sinhgad College Of 
+Science, Pune
+ 
+ 
+May 2018 
+-
+ 
+HSC 
+-
+ 
+63.23%
+ 
+ 
+ 
+ 
+PROJECTS:
+ 
+ 
+CHATISTICS
+    
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Firebase
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Extraction
+, 
+Data
+-
+Cleaning
+, 
+Data
+-
+Preprocessing
+.
+ 
+ 
+
+ 
+Using 
+Pandas
+ 
+extracted all insights and 
+analytics.
+ 
+ 
+
+ 
+Created well structured 
+API
+ 
+providing data.
+ 
+ 
+
+ 
+Refactored the existing code by 
+DRY
+ 
+concept to 
+reduce time taken from 
+1 minute
+ 
+to 
+10 seconds
+ 
+ 
+
+ 
+More than 300 successfull Chat Analysis and 27 stars 
+on GitHub.
+ 
+ 
+Sinhgad
+ 
+Spring Dale 
+Highschool, Pune
+ 
+ 
+May 2016 
+-
+ 
+SSC 
+-
+ 
+87%
+ 
+ 
+ 
+SKILLS :
+ 
+ 
+Programming
+ 
+ 
+Languages:
+ 
+ 
+
+ 
+C++
+ 
+
+ 
+C
+ 
+ 
+
+ 
+Python
+ 
+ 
+
+ 
+SQL
+ 
+ 
+Technologies:
+ 
+ 
+
+ 
+GIT
+ 
+Familiar:
+ 
+ 
+
+ 
+REST
+-
+API
+ 
+
+ 
+Pandas
+ 
+ 
+ 
+Profile Links :
+ 
+ 
+
+ 
+Github:
+ 
+AK9175
+ 
+
+ 
+Linkedin:
+ 
+Atharva Kulkarni
+ 
+ 
+
+ 
+CodeChef:
+ 
+ak9175
+ 
+ 
+
+ 
+Leetcode:
+ 
+Atharva Kulkarni
+ 
+ 
+ 
+ATTENDANCE TRACKER
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Google Sheets
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Preprocessing
+ 
+involving CSV file.
+ 
+ 
+
+ 
+Used 
+Google Sheet API
+ 
+to 
+maneuver and 
+record attendance of students.
+ 
+ 
+
+ 
+Created In
+-
+app login system for professors.
+ 
+ 
+
+ 
+Used by college faculties for a period of 1 semester.
+ 
+ 
+SIMPLE PROFILE APP
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Created a simple Database handler web app 
+with 
+Node.js
+ 
+and 
+MongoDB.
+ 
+ 
+ 
+ACHIEVEMENTS:
+ 
+ 
+
+ 
+CodeChef (Maximum Rating :
+ 
+1627
+, 3 
+star).
+ 
+ 
+
+ 
+Solved 150+ Problems on CodeChef, Leetcode, 
+GeeksforGeeks.
+ 
+ 
+
+ 
+Represented Hack Club SKN project in Hack Club Asia 
+Summit 2021
+ 
+ 
+
+ 
+Participated in more than 30 coding competitions.
+ 
+ 
+ 
+HOBBIES :
+ 
+ 
+
+ 
+Cooking
+ 
+ 
+
+ 
+Reading
+ 
+Atharva Kulkarni
+ 
+ 
+Email:
+ 
+mailmenehakulkarni@gmail.com
+ 
+| 
+Github:
+ 
+AK9175
+ 
+| 
+LinkedIn:
+ 
+Atharva
+ 
+ 
+ 
+ 
+EDUCATION :
+ 
+ 
+Smt. Kashibai Navale 
+College of 
+Engineering (SPPU)
+ 
+ 
+B.E in Information Technology 
+A
+ug 2018
+-
+Present, Pune 
+CGPA: 
+8.94
+/10
+ 
+(Till 3r
+d Year)
+ 
+ 
+Sinhgad College Of 
+Science, Pune
+ 
+ 
+May 2018 
+-
+ 
+HSC 
+-
+ 
+63.23%
+ 
+ 
+ 
+ 
+PROJECTS:
+ 
+ 
+CHATISTICS
+    
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Firebase
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Extraction
+, 
+Data
+-
+Cleaning
+, 
+Data
+-
+Preprocessing
+.
+ 
+ 
+
+ 
+Using 
+Pandas
+ 
+extracted all insights and 
+analytics.
+ 
+ 
+
+ 
+Created well structured 
+API
+ 
+providing data.
+ 
+ 
+
+ 
+Refactored the existing code by 
+DRY
+ 
+concept to 
+reduce time taken from 
+1 minute
+ 
+to 
+10 seconds
+ 
+ 
+
+ 
+More than 300 successfull Chat Analysis and 27 stars 
+on GitHub.
+ 
+ 
+Sinhgad
+ 
+Spring Dale 
+Highschool, Pune
+ 
+ 
+May 2016 
+-
+ 
+SSC 
+-
+ 
+87%
+ 
+ 
+ 
+SKILLS :
+ 
+ 
+Programming
+ 
+ 
+Languages:
+ 
+ 
+
+ 
+C++
+ 
+
+ 
+C
+ 
+ 
+
+ 
+Python
+ 
+ 
+
+ 
+SQL
+ 
+ 
+Technologies:
+ 
+ 
+
+ 
+GIT
+ 
+Familiar:
+ 
+ 
+
+ 
+REST
+-
+API
+ 
+
+ 
+Pandas
+ 
+ 
+ 
+Profile Links :
+ 
+ 
+
+ 
+Github:
+ 
+AK9175
+ 
+
+ 
+Linkedin:
+ 
+Atharva Kulkarni
+ 
+ 
+
+ 
+CodeChef:
+ 
+ak9175
+ 
+ 
+
+ 
+Leetcode:
+ 
+Atharva Kulkarni
+ 
+ 
+ 
+ATTENDANCE TRACKER
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Designed and Developed a web application with 
+backend on 
+Python
+, 
+Flask
+ 
+& 
+Google Sheets
+.
+ 
+ 
+
+ 
+Performed 
+Data
+-
+Preprocessing
+ 
+involving CSV file.
+ 
+ 
+
+ 
+Used 
+Google Sheet API
+ 
+to 
+maneuver and 
+record attendance of students.
+ 
+ 
+
+ 
+Created In
+-
+app login system for professors.
+ 
+ 
+
+ 
+Used by college faculties for a period of 1 semester.
+ 
+ 
+SIMPLE PROFILE APP
+ 
+(
+Project Demo
+ 
+|
+ 
+Source Code
+)
+ 
+ 
+
+ 
+Created a simple Database handler web app 
+with 
+Node.js
+ 
+and 
+MongoDB.
+ 
+ 
+ 
+ACHIEVEMENTS:
+ 
+ 
+
+ 
+CodeChef (Maximum Rating :
+ 
+1627
+, 3 
+star).
+ 
+ 
+
+ 
+Solved 150+ Problems on CodeChef, Leetcode, 
+GeeksforGeeks.
+ 
+ 
+
+ 
+Represented Hack Club SKN project in Hack Club Asia 
+Summit 2021
+ 
+ 
+
+ 
+Participated in more than 30 coding competitions.
+ 
+ 
+ 
+HOBBIES :
+ 
+ 
+
+ 
+Cooking
+ 
+ 
+
+ 
+Reading
+ 
