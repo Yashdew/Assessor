@@ -51,3 +51,4 @@ typer==0.3.2
 typing-extensions==3.10.0.0
 urllib3==1.26.6
 wasabi==0.8.2
+pdfx==1.4.1

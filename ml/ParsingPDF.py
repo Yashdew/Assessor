@@ -1,8 +1,9 @@
 import PyPDF2
- 
+import pdfx 
 
-pdffileobj=open('C:/Users/yashd/OneDrive/Desktop/Yash-Dewangan-CV.pdf','rb')
- 
+pdffileobj=open('C:/Users/Kulkarni/Desktop/Atharva Nitin Kulkarni resume.pdf','rb')
+pdf = pdfx.PDFx("C:/Users/Kulkarni/Desktop/Atharva Nitin Kulkarni resume.pdf")
+
 #create reader variable that will read the pdffileobj
 pdfreader=PyPDF2.PdfFileReader(pdffileobj)
  
@@ -55,6 +56,10 @@ def listToString(s):
 strVar = listToString(corpus)
 
 print(strVar)
+# Extracting Links given in the resume.
+print(pdf.get_references_as_dict())
+
+# print(data)
 
 import spacy
 
