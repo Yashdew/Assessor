@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+div.main-div {
+    height: 100vh;
+}
+
+div.box-container {
+    height: 100%;
+    padding: 8px;
+}
+
+div.box {
+    height: 100%;
+    margin: 0 6px;
+    padding: 0 10px;
+    background: #1199ff;
+    overflow-y: auto;
+}
+
+div.card {
+    margin: 12px 0;
+    height: max-content;
+    border-radius: 16px;
+    transition: 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+div.card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+div.applicant-detail {
+    width: 100%;
+    display: block;
+}
+
+div.job-desc {
+    width: 100%;
+    display: block;
+}
+
+
+.float{
+	position:fixed;
+	width:80px;
+	height:80px;
+	bottom:100px;
+	right:100px;
+	background:#1199ff;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    padding: 50;
+	box-shadow: 2px 2px 3px #999;
+}
