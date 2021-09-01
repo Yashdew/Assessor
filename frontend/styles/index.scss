@@ -1,2 +1,11 @@
+@import '../node_modules/bulma/bulma.sass';
+@import 'styles.scss';
 
-@import '../node_modules/bulma/bulma.sass'
+html {
+    overflow-y: hidden;
+}
+
+body {
+    height: 100vh;
+    background: #ffffff;
+}
