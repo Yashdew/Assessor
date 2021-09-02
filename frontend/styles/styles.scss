@@ -37,6 +37,23 @@ div.applicant-detail {
     display: block;
 }
 
+div.progress-bar-container {
+    text-align: center;
+    position: relative;
+}
+
+.react-sweet-progress-circle-outer {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    font-size: 22px;
+    margin: auto;
+}
+
 div.job-desc {
     width: 100%;
     display: block;
@@ -54,12 +71,28 @@ div.float{
 	text-align:center;
     align-items: center;
     justify-content: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: 0 0 10px #999;
     transition: 0.3s;
-	//box-shadow: 0px 0px 10px #999;
+    //box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 div.float:hover {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.2s;
     //box-shadow: 0px 0px 20px #999;
+}
+
+div.float:active {
+    transition: 0.2s;
+    box-shadow: 0 0 10px #999;
+}
+
+.float-action-button {
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+}
+
+.center-text {
+    text-align: center;
 }

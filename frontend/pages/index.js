@@ -16,7 +16,7 @@ let applicants = [
 			"Git",
 			"MySQL",
 		],
-		score: 80
+		score: 100
 	},
 	{
 		name: "Rishi Parmar",
@@ -35,7 +35,7 @@ let applicants = [
 			"Git",
 			"MySQL",
 		],
-		score: 76
+		score: 70
 	},
 	{
 		name: "Atharva Kulkarni",
@@ -47,7 +47,7 @@ let applicants = [
 			"Git",
 			"MySQL",
 		],
-		score: 75
+		score: 60
 	},
 	{
 		name: "Yash Dewangan",
@@ -59,7 +59,7 @@ let applicants = [
 			"Git",
 			"MySQL",
 		],
-		score: 76
+		score: 50
 	},
 	{
 		name: "Aditya Pandey",
@@ -70,7 +70,7 @@ let applicants = [
 			"Git",
 			"MySQL",
 		],
-		score: 70
+		score: 40
 	},
 	{
 		name: "Random Douchebag",
@@ -80,7 +80,7 @@ let applicants = [
 			"C",
 			"MySQL",
 		],
-		score: 40
+		score: 20
 	},
 
 ]
@@ -103,11 +103,7 @@ export default function Home() {
 							<JobDescription />
 
 							<div className="float">
-								<FontAwesomeIcon style={{
-									width: '30px',
-									height: '30px',
-									margin: '25px',
-								}} icon={faPlus} />
+								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
 							</div>
 
 						</div>
@@ -121,11 +117,7 @@ export default function Home() {
 							}
 
 							<div className="float">
-								<FontAwesomeIcon style={{
-									width: '30px',
-									height: '30px',
-									margin: '25px',
-								}} icon={faPlus} />
+								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
 							</div>
 						</div>
 					</div>

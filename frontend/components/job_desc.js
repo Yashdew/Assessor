@@ -1,26 +1,20 @@
 import "react-sweet-progress/lib/style.css";
 
-const JobDescription = () => {
+const JobDescription = (applicant) => {
     return (
         <div className="card">
-            <header className="card-header">
-                <p className="card-header-title">
-                    Component
-                </p>
-            </header>
-            <div className="card-content job-desc">
-                <div className="field">
-                    <label className="label">New Skill</label>
-                    <div className="control">
-                        <input className="input" type="text" placeholder="e.g Alex Smith" />
-                    </div>
+            <div className="card-content">
+
+
+                <h3 className="title">Nice Systems</h3>
+                <div class="field is-grouped">
+                    <h1 className="subtitle">Job Title : </h1>
+                    <div>Backend Dev</div>
                 </div>
+
+
+
             </div>
-            <footer class="card-footer">
-                <a href="#" className="card-footer-item">Save</a>
-                <a href="#" className="card-footer-item">Edit</a>
-                <a href="#" className="card-footer-item">Delete</a>
-            </footer>
         </div>
     );
 }
