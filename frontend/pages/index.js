@@ -1,3 +1,5 @@
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Applicant from "../components/applicant";
 import JobDescription from "../components/job_desc"
 
@@ -91,13 +93,22 @@ export default function Home() {
 			<head>
 				<title>Resume Analyser</title>
 				<link rel="icon" href="/favicon.ico" />
+				<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"></link>
 			</head>
 			<div className="main-div">
 				<div className="columns is-gapless box-container">
 					<div className="column">
 						<div className="box">
 
-							<JobDescription/>
+							<JobDescription />
+
+							<div className="float">
+								<FontAwesomeIcon style={{
+									width: '30px',
+									height: '30px',
+									margin: '25px',
+								}} icon={faPlus} />
+							</div>
 
 						</div>
 					</div>
@@ -110,7 +121,11 @@ export default function Home() {
 							}
 
 							<div className="float">
-							
+								<FontAwesomeIcon style={{
+									width: '30px',
+									height: '30px',
+									margin: '25px',
+								}} icon={faPlus} />
 							</div>
 						</div>
 					</div>

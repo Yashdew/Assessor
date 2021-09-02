@@ -20,11 +20,11 @@ const Applicant = (appliant) => {
                         <h3 className="title" >{appliant.data.name}</h3>
                         <h1 className="subtitle is-5">{appliant.data.college}</h1>
 
-                        <div class="tags">
+                        <div className="tags">
 
                             {
                                 appliant.data.skills.map((skill) => {
-                                    return <span class="tag is-info">{skill}</span>
+                                    return <span className="tag is-info">{skill}</span>
                                 })
                             }
                         </div>
