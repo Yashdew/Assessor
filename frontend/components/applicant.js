@@ -1,34 +1,67 @@
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 
+const getColor = (value) => {
 
-const Applicant = (appliant) => {
+    const hue = Math.round(value);
+    return ["hsl(", hue, ", 50%, 50%)"].join("");
+}
+
+const Applicant = (applicant) => {
     return (
         <div className="card">
             <div className="card-content">
                 <div className="columns">
 
-                    <div className="column is-one-fifth">
+                    <div className="column is-one-fifth progress-bar-container">
                         <Progress
-                            width={100}
+                            theme={
+                                {
+                                    error: {
+                                        symbol: applicant.data.score + '%',
+                                        trailColor: 'pink',
+                                        color: 'red'
+                                    },
+                                    default: {
+                                        symbol: applicant.data.score + '%',
+                                        trailColor: 'lightblue',
+                                        color: 'blue'
+                                    },
+                                    active: {
+                                        symbol: applicant.data.score + '%',
+                                        trailColor: 'white',
+                                        color: getColor(applicant.data.score)
+                                    },
+                                    success: {
+                                        symbol: applicant.data.score + '%',
+                                        trailColor: 'lime',
+                                        color: 'green'
+                                    }
+                                }
+                            }
                             type="circle"
-                            percent={appliant.data.score}
+                            width={100}
+                            percent={applicant.data.score}
                         />
                     </div>
 
                     <div className="column applicant-detail">
-                        <h3 className="title" >{appliant.data.name}</h3>
-                        <h1 className="subtitle is-5">{appliant.data.college}</h1>
+                        <h1 className="title is-3 no-margin">{applicant.data.name}</h1>
+                        <h3 className="subtitle is-6 no-margin">{applicant.data.college}</h3>
 
-                        <div class="tags">
+                        <div className="detail-line">
+                            <h3 className="title is-6 no-margin inline-block">Experience:</h3>
+                            <h3 className="subtitle is-6 no-margin inline-block">&nbsp; 3+ years</h3>
+                        </div>
 
+
+                        <div className="tags tags-container">
                             {
-                                appliant.data.skills.map((skill) => {
-                                    return <span class="tag is-info">{skill}</span>
+                                applicant.data.skills.map((skill) => {
+                                    return <span className="tag is-info">{skill}</span>
                                 })
                             }
                         </div>
-
                     </div>
 
                 </div>

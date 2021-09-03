@@ -1,26 +1,42 @@
 import "react-sweet-progress/lib/style.css";
 
-const JobDescription = () => {
+const JobDescription = (job) => {
     return (
         <div className="card">
-            <header class="card-header">
-                <p class="card-header-title">
-                    Component
-                </p>
-            </header>
-            <div class="card-content job-desc">
-                <div class="field">
-                    <label class="label">New Skill</label>
-                    <div class="control">
-                        <input class="input" type="text" placeholder="e.g Alex Smith" />
+            <div className="card-content">
+
+                <div className="job-desc">
+                    
+                    <h1 className="title is-3 no-margin">{job.data.company}</h1>
+                    <h3 className="title is-5">{job.data.position}</h3>
+
+                    <div className="detail-line">
+                        <h3 className="title is-6 no-margin inline-block">Location: &nbsp;</h3>
+                        <h3 className="subtitle is-6 no-margin inline-block">{job.data.location}</h3>
+                    </div>
+
+                    <div className="detail-line">
+                        <h3 className="title is-6 no-margin inline-block">Experience: &nbsp;</h3>
+                        <h3 className="subtitle is-6 no-margin inline-block">{job.data.experience}</h3>
+                    </div>
+
+                    <div className="detail-line no-margin">
+                        <h3 className="title is-6 no-margin inline-block">Skills Required: &nbsp;</h3>
+                        <div className="tags tags-container inline-block">
+                            {
+                                job.data.skills_req.map((skill) => {
+                                    return <span className="tag is-info">{skill}</span>
+                                })
+                            }
+                        </div>
+                    </div>
+
+                    <div className="detail-line">
+                        <h3 className="title is-6 no-margin inline-block">Summary: &nbsp;</h3>
+                        <h3 className="subtitle is-6 no-margin inline-block">{job.data.summary}</h3>
                     </div>
                 </div>
             </div>
-            <footer class="card-footer">
-                <a href="#" class="card-footer-item">Save</a>
-                <a href="#" class="card-footer-item">Edit</a>
-                <a href="#" class="card-footer-item">Delete</a>
-            </footer>
         </div>
     );
 }
