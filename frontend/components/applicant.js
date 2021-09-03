@@ -1,7 +1,8 @@
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 
-function getColor(value) {
+const getColor = (value) => {
+
     const hue = Math.round(value);
     return ["hsl(", hue, ", 50%, 50%)"].join("");
 }
@@ -45,18 +46,22 @@ const Applicant = (applicant) => {
                     </div>
 
                     <div className="column applicant-detail">
-                        <h3 className="title" >{applicant.data.name}</h3>
-                        <h1 className="subtitle is-5">{applicant.data.college}</h1>
+                        <h1 className="title is-3 no-margin">{applicant.data.name}</h1>
+                        <h3 className="subtitle is-6 no-margin">{applicant.data.college}</h3>
 
-                        <div className="tags">
+                        <div className="detail-line">
+                            <h3 className="title is-6 no-margin inline-block">Experience:</h3>
+                            <h3 className="subtitle is-6 no-margin inline-block">&nbsp; 3+ years</h3>
+                        </div>
 
+
+                        <div className="tags tags-container">
                             {
                                 applicant.data.skills.map((skill) => {
                                     return <span className="tag is-info">{skill}</span>
                                 })
                             }
                         </div>
-
                     </div>
 
                 </div>

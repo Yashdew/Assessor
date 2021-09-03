@@ -18,23 +18,39 @@ div.box {
     padding: 0 10px;
     background: #1199ff;
     overflow-y: auto;
+    border-radius: 20px;
 }
 
 div.card {
     margin: 12px 0;
     height: max-content;
-    border-radius: 16px;
+    border-radius: 20px;
     transition: 0.3s;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 div.card:hover {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.2s;
+
+}
+
+div.card:active {
+    transition: 0.2s;
+    box-shadow: 0 0 10px #999;
 }
 
 div.applicant-detail {
     width: 100%;
     display: block;
+}
+
+div.detail-line {
+    margin: 4px 0 0;
+}
+
+div.tags-container {
+    margin: 10px 0;
 }
 
 div.progress-bar-container {
@@ -57,6 +73,7 @@ div.progress-bar-container {
 div.job-desc {
     width: 100%;
     display: block;
+    margin: 0 0 5px;
 }
 
 div.float{
@@ -95,4 +112,12 @@ div.float:active {
 
 .center-text {
     text-align: center;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.inline-block {
+    display: inline-block;
 }
