@@ -85,7 +85,48 @@ let applicants = [
 
 ]
 
-let jod_desc = [""]
+let job_desc = [
+	{
+		company: "Persistent Systems",
+		position: "Bakend Developer",
+		location: "Pune",
+		experience: "2-3 Years",
+		skills_req: ['Django', 'Python', 'Node', 'Javascript'],
+		summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
+	},
+	{
+		company: "Jio Platforms",
+		position: "Fullstack Developer",
+		location: "Navi Mumbai",
+		experience: "1-2 Years",
+		skills_req: ['ReactJS', 'AngularJS', 'JavaScript', 'HTML', 'CSS', 'Python', 'NodeJS'],
+		summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
+	},
+	{
+		company: "eQ Technologic",
+		position: "Backend Developer",
+		location: "Pune",
+		experience: "3-4 Years",
+		skills_req: ['Django', 'NodeJS'],
+		summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
+	},
+	{
+		company: "Cognizant",
+		position: "DevOps Engineer",
+		location: "Pune",
+		experience: "None",
+		skills_req: ['C++', 'Python'],
+		summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
+	},
+	{
+		company: "Nice Systems",
+		position: "Software Engineer",
+		location: "Mumbai",
+		experience: "1-2 Years",
+		skills_req: ['C++', 'Java'],
+		summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
+	},
+]
 
 export default function Home() {
 	return (
@@ -100,7 +141,13 @@ export default function Home() {
 					<div className="column">
 						<div className="box">
 
-							<JobDescription />
+							{
+								job_desc.map((job) => {
+									//return <Applicant data={applicant} />;
+									return<JobDescription data={job} />
+								})
+							}
+
 
 							<div className="float">
 								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
