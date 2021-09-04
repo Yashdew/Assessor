@@ -3,7 +3,6 @@ colorama==0.4.4
 Flask==2.0.1
 Flask-Cors==3.0.10
 Flask-Limiter==1.4
-gunicorn==20.1.0
 itsdangerous==2.0.1
 Jinja2==3.0.1
 limits==1.5.1
