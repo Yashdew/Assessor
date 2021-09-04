@@ -1,5 +1,6 @@
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 import Applicant from "../components/applicant";
 import JobDescription from "../components/job_desc"
 
@@ -129,6 +130,10 @@ let job_desc = [
 ]
 
 export default function Home() {
+
+	const [jobSearch, setJobSearch] = useState('');
+	const [candidateSearch, setCandidateSearch] = useState('');
+
 	return (
 		<div>
 			<head>
@@ -138,16 +143,32 @@ export default function Home() {
 			</head>
 			<div className="main-div">
 				<div className="columns is-gapless box-container">
-					<div className="column">
+					<div className="column is-three-fifths">
 						<div className="box">
 
-							{
-								job_desc.map((job) => {
-									//return <Applicant data={applicant} />;
-									return<JobDescription data={job} />
-								})
-							}
+							<div className="search-div">
+								<input class="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
+							</div>
 
+							{
+								jobSearch == '' ?
+
+									job_desc.map((job) => {
+										//return <Applicant data={applicant} />;
+										return <JobDescription data={job} />
+									})
+									:
+									job_desc.filter((job) => {
+										return job.company.toLowerCase().includes(jobSearch.toLowerCase())
+											||
+											job.position.toLowerCase().includes(jobSearch.toLowerCase())
+
+
+									}).map((job) => {
+										//return <Applicant data={applicant} />;
+										return <JobDescription data={job} />
+									})
+							}
 
 							<div className="float">
 								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
@@ -157,10 +178,29 @@ export default function Home() {
 					</div>
 					<div className="column">
 						<div className="box">
+
+							<div className="search-div">
+								<input class="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
+							</div>
+
 							{
-								applicants.map((applicant) => {
-									return <Applicant data={applicant} />;
-								})
+								candidateSearch == '' ?
+
+									applicants.map((applicant) => {
+										//return <Applicant data={applicant} />;
+										return <Applicant data={applicant} />
+									})
+									:
+									applicants.filter((applicant) => {
+										return applicant.name.toLowerCase().includes(candidateSearch.toLowerCase())
+											||
+											applicant.college.toLowerCase().includes(candidateSearch.toLowerCase())
+
+
+									}).map((applicant) => {
+										//return <Applicant data={applicant} />;
+										return <Applicant data={applicant} />
+									})
 							}
 
 							<div className="float">

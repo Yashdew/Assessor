@@ -40,7 +40,6 @@ const Applicant = (applicant) => {
                                 }
                             }
                             type="circle"
-                            width={100}
                             percent={applicant.data.score}
                         />
                     </div>
