@@ -59,14 +59,16 @@ div.progress-bar-container {
 }
 
 .react-sweet-progress-circle-outer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     position: absolute !important;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100px;
-    height: 100px;
-    font-size: 22px;
+    width: 60% !important;
+    font-size: 1.2vw !important;
     margin: auto;
 }
 
@@ -80,8 +82,7 @@ div.float{
     display: flex;
 	width:80px;
 	height:80px;
-    margin: 20px;
-	margin-left: 50%;
+    margin: 20px auto;
 	color:#1199ff;
 	background:#FFF;
 	border-radius:50px;
@@ -102,6 +103,12 @@ div.float:hover {
 div.float:active {
     transition: 0.2s;
     box-shadow: 0 0 10px #999;
+}
+
+div.search-div {
+    width: 60%;
+    
+    margin: 12px auto 0;
 }
 
 .float-action-button {
