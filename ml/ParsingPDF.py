@@ -1,8 +1,9 @@
 import PyPDF2
- 
+import pdfx 
 
-pdffileobj=open('C:/Users/yashd/OneDrive/Desktop/Yash-Dewangan-CV.pdf','rb')
- 
+pdffileobj=open('C:/Users/Kulkarni/Desktop/Atharva Nitin Kulkarni resume.pdf','rb')
+pdf = pdfx.PDFx("C:/Users/Kulkarni/Desktop/Atharva Nitin Kulkarni resume.pdf")
+
 #create reader variable that will read the pdffileobj
 pdfreader=PyPDF2.PdfFileReader(pdffileobj)
  
@@ -24,9 +25,6 @@ text=pageobj.extractText()
 #go to the file location copy the path by right clicking on the file
 #click properties and copy the location path and paste it here.
 #put "\\your_txtfilename"
-file1=open(r"Resume Text.txt","a")
-file1.writelines(text)
-
 
 import nltk            
 
@@ -58,6 +56,10 @@ def listToString(s):
 strVar = listToString(corpus)
 
 print(strVar)
+# Extracting Links given in the resume.
+print(pdf.get_references_as_dict())
+
+# print(data)
 
 import spacy
 
@@ -65,6 +67,10 @@ nlp = spacy.load("en_core_web_sm")
 doc = nlp(strVar)
 
 for ent in doc.ents:
-    print(ent.text, ent.start_char, ent.end_char, ent.label_)
+    print(ent.text," ", ent.start_char," ", ent.end_char," ", ent.label_," ",)
 
+# for chunk in doc.noun_chunks:
+#     print(chunk.text, chunk.root.text, chunk.root.dep_,chunk.root.head.text)
 
+file1=open(r"Resume Text.txt","a")
+file1.writelines(strVar)

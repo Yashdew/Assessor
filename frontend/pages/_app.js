@@ -1,7 +1,7 @@
 import '../styles/index.scss'
 
-function MyApp({ Component, pageProps }) {
+function Assessor({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default Assessor

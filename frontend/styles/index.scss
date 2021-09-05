@@ -1,2 +1,7 @@
+@import '../node_modules/bulma/bulma.sass';
+@import 'styles.scss';
 
-@import '../node_modules/bulma/bulma.sass'
+body {
+    height: 100vh;
+    background: #ffffff;
+}

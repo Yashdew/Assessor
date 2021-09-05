@@ -1,17 +1,16 @@
 #### Backend
 
 ```bash
-cd .\backend\
-pip install virtual env
+pip install virtualenv
 virtualenv env
 env\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ```Local Host
-python manage.py runserver
+python run.py 
 ```
 
 ``` New Package or New Library
-pip freeze > requirements. txt
+pip freeze > requirements.txt
 ```
