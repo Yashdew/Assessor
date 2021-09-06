@@ -18,7 +18,7 @@ def hello():
 
 @main.route('/api/v1/dummy')
 def api():
-    return dummyApi
+    return dummyApi()
 
 
 @main.route('/api/post', methods=['POST'])
