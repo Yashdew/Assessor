@@ -29,8 +29,42 @@ export default function Home(data) {
 		}, []
 	)
 
-	return (
+	const getJobList = () => {
+		if (jobSearch == '') {
+			return jobs
+		}
 
+		const list = jobs.filter((job) => {
+			return job.company.toLowerCase().includes(jobSearch.toLowerCase())
+				||
+				job.position.toLowerCase().includes(jobSearch.toLowerCase())
+		}).map((job) => {
+			return job
+		})
+
+		console.log(list)
+		return list
+	}
+
+	const getApplicantList = () => {
+
+		if (candidateSearch == '') {
+			return applicants
+		}
+
+		const list = applicants.filter((applicant) => {
+			return applicant.name.toLowerCase().includes(candidateSearch.toLowerCase())
+				||
+				applicant.college.toLowerCase().includes(candidateSearch.toLowerCase())
+		}).map((applicant) => {
+			return applicant
+		})
+
+		console.log(list)
+		return list
+	}
+
+	return (
 		<div>
 			<head>
 				<title>Resume Analyser</title>
@@ -44,25 +78,16 @@ export default function Home(data) {
 							<div className="search-div">
 								<input className="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
-
 							{
-								jobSearch == '' ?
-
-									jobs.map((job) => {
-										return <JobDescription data={job} />
-									})
+								loading ?
+									<div className="loading-container">
+										<div className="loading" />
+									</div>
 									:
-									jobs.filter((job) => {
-										return job.company.toLowerCase().includes(jobSearch.toLowerCase())
-											||
-											job.position.toLowerCase().includes(jobSearch.toLowerCase())
-
-
-									}).map((job) => {
+									getJobList().map((job) => {
 										return <JobDescription data={job} />
 									})
 							}
-
 							<div className="float">
 								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
 							</div>
@@ -73,25 +98,16 @@ export default function Home(data) {
 							<div className="search-div">
 								<input className="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
-
 							{
-								candidateSearch == '' ?
-
-									applicants.map((applicant) => {
-										return <Applicant data={applicant} />
-									})
+								loading ?
+									<div className="loading-container">
+										<div className="loading" />
+									</div>
 									:
-									applicants.filter((applicant) => {
-										return applicant.name.toLowerCase().includes(candidateSearch.toLowerCase())
-											||
-											applicant.college.toLowerCase().includes(candidateSearch.toLowerCase())
-
-
-									}).map((applicant) => {
+									getApplicantList().map((applicant) => {
 										return <Applicant data={applicant} />
 									})
 							}
-
 							<div className="float">
 								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
 							</div>

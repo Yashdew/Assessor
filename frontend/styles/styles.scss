@@ -111,6 +111,35 @@ div.search-div {
     margin: 12px auto 0;
 }
 
+.loading-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border-radius: 50%;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #1199ff;
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+}
+  
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 .float-action-button {
     width: 30px;
     height: 30px;
