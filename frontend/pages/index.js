@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -11,6 +11,23 @@ export default function Home(data) {
 
 	const [jobSearch, setJobSearch] = useState('');
 	const [candidateSearch, setCandidateSearch] = useState('');
+
+	const [jobs, setJobs] = useState([]);
+	const [applicants, setApplicants] = useState([]);
+
+	const [loading, setLoading] = useState(true)
+
+	useEffect(
+		async () => {
+			const res = await fetch('http://localhost:3000/api/jobs')
+			setJobs(await res.json())
+
+			const app_res = await fetch('http://localhost:3000/api/applicants')
+			setApplicants(await app_res.json())
+
+			setLoading(false)
+		}, []
+	)
 
 	return (
 
@@ -31,19 +48,17 @@ export default function Home(data) {
 							{
 								jobSearch == '' ?
 
-									data.jobs.map((job) => {
-										//return <Applicant data={applicant} />;
+									jobs.map((job) => {
 										return <JobDescription data={job} />
 									})
 									:
-									data.jobs.filter((job) => {
+									jobs.filter((job) => {
 										return job.company.toLowerCase().includes(jobSearch.toLowerCase())
 											||
 											job.position.toLowerCase().includes(jobSearch.toLowerCase())
 
 
 									}).map((job) => {
-										//return <Applicant data={applicant} />;
 										return <JobDescription data={job} />
 									})
 							}
@@ -62,19 +77,17 @@ export default function Home(data) {
 							{
 								candidateSearch == '' ?
 
-									data.applicants.map((applicant) => {
-										//return <Applicant data={applicant} />;
+									applicants.map((applicant) => {
 										return <Applicant data={applicant} />
 									})
 									:
-									data.applicants.filter((applicant) => {
+									applicants.filter((applicant) => {
 										return applicant.name.toLowerCase().includes(candidateSearch.toLowerCase())
 											||
 											applicant.college.toLowerCase().includes(candidateSearch.toLowerCase())
 
 
 									}).map((applicant) => {
-										//return <Applicant data={applicant} />;
 										return <Applicant data={applicant} />
 									})
 							}
@@ -90,6 +103,8 @@ export default function Home(data) {
 	)
 }
 
+/*
+
 export const getStaticProps = async () => {
 	const res = await fetch('http://localhost:3000/api/jobs')
 	const jobs = await res.json()
@@ -102,4 +117,4 @@ export const getStaticProps = async () => {
 			jobs, applicants
 		}
 	}
-}
+}*/
