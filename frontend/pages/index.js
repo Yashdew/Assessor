@@ -5,14 +5,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Applicant from "../components/applicant";
 import JobDescription from "../components/job_desc"
 
-import { applicants, job_desc } from '../components/dummy'
+//import { applicants, job_desc } from '../components/dummy'
 
-export default function Home() {
+export default function Home(data) {
 
 	const [jobSearch, setJobSearch] = useState('');
 	const [candidateSearch, setCandidateSearch] = useState('');
 
 	return (
+
 		<div>
 			<head>
 				<title>Resume Analyser</title>
@@ -24,18 +25,18 @@ export default function Home() {
 					<div className="column is-three-fifths">
 						<div className="box">
 							<div className="search-div">
-								<input class="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
+								<input className="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
 
 							{
 								jobSearch == '' ?
 
-									job_desc.map((job) => {
+									data.jobs.map((job) => {
 										//return <Applicant data={applicant} />;
 										return <JobDescription data={job} />
 									})
 									:
-									job_desc.filter((job) => {
+									data.jobs.filter((job) => {
 										return job.company.toLowerCase().includes(jobSearch.toLowerCase())
 											||
 											job.position.toLowerCase().includes(jobSearch.toLowerCase())
@@ -55,18 +56,18 @@ export default function Home() {
 					<div className="column">
 						<div className="box">
 							<div className="search-div">
-								<input class="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
+								<input className="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
 
 							{
 								candidateSearch == '' ?
 
-									applicants.map((applicant) => {
+									data.applicants.map((applicant) => {
 										//return <Applicant data={applicant} />;
 										return <Applicant data={applicant} />
 									})
 									:
-									applicants.filter((applicant) => {
+									data.applicants.filter((applicant) => {
 										return applicant.name.toLowerCase().includes(candidateSearch.toLowerCase())
 											||
 											applicant.college.toLowerCase().includes(candidateSearch.toLowerCase())
@@ -87,4 +88,18 @@ export default function Home() {
 			</div>
 		</div>
 	)
+}
+
+export const getStaticProps = async () => {
+	const res = await fetch('http://localhost:3000/api/jobs')
+	const jobs = await res.json()
+
+	const app_res = await fetch('http://localhost:3000/api/applicants')
+	const applicants = await app_res.json()
+
+	return {
+		props: {
+			jobs, applicants
+		}
+	}
 }

@@ -1,5 +1,6 @@
 export let applicants = [
     {
+        id: 1,
         name: "Jayesh Padhiar",
         college: "Smt. Kashibai Navale College of Engineering",
         skills: ["Python",
@@ -14,12 +15,14 @@ export let applicants = [
         score: 100
     },
     {
+        id: 2,
         name: "Rishi Parmar",
         college: "Sinhgad College of Engineering",
         skills: ["Everything", "Everything"],
         score: 90
     },
     {
+        id: 3,
         name: "Sumit Kolpekwar",
         college: "Smt. Kashibai Navale College of Engineering",
         skills: ["Python",
@@ -33,6 +36,7 @@ export let applicants = [
         score: 70
     },
     {
+        id: 4,
         name: "Atharva Kulkarni",
         college: "Smt. Kashibai Navale College of Engineering",
         skills: ["Python",
@@ -45,6 +49,7 @@ export let applicants = [
         score: 60
     },
     {
+        id: 5,
         name: "Yash Dewangan",
         college: "Smt. Kashibai Navale College of Engineering",
         skills: ["Python",
@@ -57,6 +62,7 @@ export let applicants = [
         score: 50
     },
     {
+        id: 6,
         name: "Aditya Pandey",
         college: "Smt. Kashibai Navale College of Engineering",
         skills: ["Python",
@@ -68,6 +74,7 @@ export let applicants = [
         score: 40
     },
     {
+        id: 7,
         name: "Random Douchebag",
         college: "Smt. Kashibai Navale College of Engineering",
         skills: [
@@ -80,6 +87,7 @@ export let applicants = [
 
 ], job_desc = [
     {
+        id: 1,
         company: "Persistent Systems",
         position: "Bakend Developer",
         location: "Pune",
@@ -88,6 +96,7 @@ export let applicants = [
         summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
     },
     {
+        id: 2,
         company: "Jio Platforms",
         position: "Fullstack Developer",
         location: "Navi Mumbai",
@@ -96,6 +105,7 @@ export let applicants = [
         summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
     },
     {
+        id: 3,
         company: "eQ Technologic",
         position: "Backend Developer",
         location: "Pune",
@@ -104,6 +114,7 @@ export let applicants = [
         summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
     },
     {
+        id: 4,
         company: "Cognizant",
         position: "DevOps Engineer",
         location: "Pune",
@@ -112,6 +123,7 @@ export let applicants = [
         summary: "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed."
     },
     {
+        id: 5,
         company: "Nice Systems",
         position: "Software Engineer",
         location: "Mumbai",
