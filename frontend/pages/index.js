@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Applicant from "../components/applicant";
 import JobDescription from "../components/job_desc"
 
-//import { applicants, job_desc } from '../components/dummy'
-
 export default function Home(data) {
 
 	const [jobSearch, setJobSearch] = useState('');
@@ -15,17 +13,23 @@ export default function Home(data) {
 	const [jobs, setJobs] = useState([]);
 	const [applicants, setApplicants] = useState([]);
 
-	const [loading, setLoading] = useState(true)
+	const [loading, setLoading] = useState({ jobs_loading: true, applicants_loading: true })
 
 	useEffect(
 		async () => {
-			const res = await fetch('http://localhost:3000/api/jobs')
-			setJobs(await res.json())
+			const jobs_res = await fetch('http://localhost:3000/api/jobs')
+			setJobs(await jobs_res.json())
+			//setLoading({ ...loading, jobs_loaded: false })
+			setLoading(prevLoading => { return { ...prevLoading, jobs_loading: false } })
+			console.log('Jobs Loaded')
 
 			const app_res = await fetch('http://localhost:3000/api/applicants')
 			setApplicants(await app_res.json())
+			//setLoading({ ...loading, applicants_loaded: false })
+			setLoading(prevLoading => { return { ...prevLoading, applicants_loading: false } })
+			console.log('Applicants Loaded')
 
-			setLoading(false)
+			console.log(loading)
 		}, []
 	)
 
@@ -42,11 +46,11 @@ export default function Home(data) {
 			return job
 		})
 
-		console.log(list)
 		return list
 	}
 
 	const getApplicantList = () => {
+
 
 		if (candidateSearch == '') {
 			return applicants
@@ -60,7 +64,6 @@ export default function Home(data) {
 			return applicant
 		})
 
-		console.log(list)
 		return list
 	}
 
@@ -79,7 +82,7 @@ export default function Home(data) {
 								<input className="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
 							{
-								loading ?
+								loading['jobs_loading'] ?
 									<div className="loading-container">
 										<div className="loading" />
 									</div>
@@ -99,7 +102,7 @@ export default function Home(data) {
 								<input className="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
 							{
-								loading ?
+								loading['applicants_loading'] ?
 									<div className="loading-container">
 										<div className="loading" />
 									</div>
@@ -118,19 +121,3 @@ export default function Home(data) {
 		</div>
 	)
 }
-
-/*
-
-export const getStaticProps = async () => {
-	const res = await fetch('http://localhost:3000/api/jobs')
-	const jobs = await res.json()
-
-	const app_res = await fetch('http://localhost:3000/api/applicants')
-	const applicants = await app_res.json()
-
-	return {
-		props: {
-			jobs, applicants
-		}
-	}
-}*/

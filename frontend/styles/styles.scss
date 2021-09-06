@@ -75,7 +75,7 @@ div.progress-bar-container {
 div.job-desc {
     width: 100%;
     display: block;
-    margin: 0 0 5px;
+    //margin: 0 0 5px;
 }
 
 div.float{
@@ -156,4 +156,18 @@ div.search-div {
 
 .inline-block {
     display: inline-block;
+}
+
+.exp-arrow-div {
+    margin: 15px 0 10px;
+    height: fit-content;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.exp-arrow-div:hover {
+    transition: 0.5s;
+    color: #1199ff !important;
 }

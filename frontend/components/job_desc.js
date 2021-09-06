@@ -1,12 +1,23 @@
+import { faChevronDown, faChevronUp, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 import "react-sweet-progress/lib/style.css";
 
 const JobDescription = (job) => {
+
+    const [expanded, setExpanded] = useState(false)
+
+    const toggleExpansion = () => {
+        setExpanded(prevExpanded => !prevExpanded)
+        console.log('clicked')
+    }
+
     return (
         <div className="card">
-            <div className="card-content">
+            <div className="card-content pb-1">
 
                 <div className="job-desc">
-                    
+
                     <h1 className="title is-3 no-margin">{job.data.company}</h1>
                     <h3 className="title is-5">{job.data.position}</h3>
 
@@ -31,10 +42,17 @@ const JobDescription = (job) => {
                         </div>
                     </div>
 
-                    <div className="detail-line">
+                    <div className="detail-line exp-div" style={{ display: expanded ? "block" : "none" }}>
                         <h3 className="title is-6 no-margin inline-block">Summary: &nbsp;</h3>
                         <h3 className="subtitle is-6 no-margin inline-block">{job.data.summary}</h3>
                     </div>
+
+                    <div className="exp-arrow-div"onClick={toggleExpansion}>
+                        <FontAwesomeIcon icon={expanded ? faChevronUp : faChevronDown} />
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
