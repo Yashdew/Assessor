@@ -172,3 +172,14 @@ div.search-div {
     transition: 0.5s;
     color: #1199ff !important;
 }
+
+.modal-content-container {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+}

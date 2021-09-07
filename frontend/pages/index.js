@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Applicant from "../components/applicant";
 import JobDescription from "../components/job_desc"
+import UploadModal from "../components/upload";
 
 export default function Home(data) {
 
@@ -14,6 +15,7 @@ export default function Home(data) {
 	const [applicants, setApplicants] = useState([]);
 
 	const [loading, setLoading] = useState({ jobs_loading: true, applicants_loading: true })
+	const [uploadModalEnabled, setUploadModalEnabled] = useState(false)
 
 	useEffect(
 		async () => {
@@ -50,8 +52,6 @@ export default function Home(data) {
 	}
 
 	const getApplicantList = () => {
-
-
 		if (candidateSearch == '') {
 			return applicants
 		}
@@ -91,7 +91,7 @@ export default function Home(data) {
 										return <JobDescription data={job} />
 									})
 							}
-							<div className="float">
+							<div className="float" onClick={() => setUploadModalEnabled(true)}>
 								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
 							</div>
 						</div>
@@ -111,12 +111,13 @@ export default function Home(data) {
 										return <Applicant data={applicant} />
 									})
 							}
-							<div className="float">
+							<div className="float" onClick={() => setUploadModalEnabled(true)}>
 								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
 							</div>
 						</div>
 					</div>
 				</div>
+				<UploadModal enabled={uploadModalEnabled} disable={() => setUploadModalEnabled(false)} />
 			</div>
 		</div>
 	)
