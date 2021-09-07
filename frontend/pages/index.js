@@ -76,7 +76,7 @@ export default function Home(data) {
 			</head>
 			<div className="main-div">
 				<div className="columns is-gapless box-container">
-					<div className="column is-three-fifths">
+					<div className="column is-three-fifths is-relative">
 						<div className="box">
 							<div className="search-div">
 								<input className="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
@@ -96,7 +96,7 @@ export default function Home(data) {
 							</div>
 						</div>
 					</div>
-					<div className="column">
+					<div className="column is-relative">
 						<div className="box">
 							<div className="search-div">
 								<input className="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
