@@ -1,6 +1,6 @@
 from resume.error.error import error
 from resume.dummy.dummyapi import dummyApi
-from resume.extraction.resumeextraction import extarct
+from resume.extraction.resumeextraction import ResumeExtract
 from flask import Flask, jsonify, request, Blueprint
 from flask_cors import CORS, cross_origin
 import os
@@ -36,10 +36,11 @@ def index():
                 fileName = file.filename
                 if not file.filename.endswith('.pdf'):
                     os.remove(file.filename)
-                else:    
-                    data = extarct(fileName)
+                else:
+                    ext = ResumeExtract(fileName)
+                    data = ext.get_data()
                     datalist.append(data)
-                    os.remove(file.filename)
+                    os.remove(fileName)
             finaldata = {"DATA" : datalist}            
             return finaldata
         except Exception as e:
