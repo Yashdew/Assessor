@@ -160,11 +160,11 @@ div.search-div {
 }
 
 .exp-arrow-div {
-    margin: 15px 0 10px;
+    padding: 0 0 10px;
     height: fit-content;
     display: flex;
     align-items:flex-end;
-    justify-content: center;
+    justify-content: flex-end;
     transition: 0.5s;
 }
 

@@ -14,7 +14,7 @@ const JobDescription = (job) => {
 
     return (
         <div className="card">
-            <div className="card-content pb-1">
+            <div className="card-content pb-0">
 
                 <div className="job-desc">
 
@@ -47,7 +47,7 @@ const JobDescription = (job) => {
                         <h3 className="subtitle is-6 no-margin inline-block">{job.data.summary}</h3>
                     </div>
 
-                    <div className="exp-arrow-div"onClick={toggleExpansion}>
+                    <div className="exp-arrow-div" onClick={toggleExpansion}>
                         <FontAwesomeIcon icon={expanded ? faChevronUp : faChevronDown} />
                     </div>
 
