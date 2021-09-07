@@ -1,6 +1,6 @@
 from resume.error.error import error
 from resume.dummy.dummyapi import dummyApi
-from resume.extraction.resumeextraction import ResumeExtract
+from resume.extraction.resumeextraction import ResumeExtract , utils
 from flask import Flask, jsonify, request, Blueprint
 from flask_cors import CORS, cross_origin
 import os
@@ -24,8 +24,7 @@ def api():
 @main.route('/api/post', methods=['POST'])
 @cross_origin()
 def index():
-    datalist = list()
-    finaldata = {}
+    dataList = list()
     if request.method == 'POST':
         try:
             if not request.files or request.files['file'].filename == '':
@@ -34,14 +33,11 @@ def index():
             for file in files:
                 file.save(file.filename)
                 fileName = file.filename
-                if not file.filename.endswith('.pdf'):
-                    os.remove(file.filename)
-                else:
+                if utils.allowedFile(fileName):
                     ext = ResumeExtract(fileName)
                     data = ext.get_data()
-                    datalist.append(data)
-                    os.remove(fileName)
-            finaldata = {"DATA" : datalist}            
-            return finaldata
+                    dataList.append(data)
+                    os.remove(fileName)            
+            return {"DATA" : dataList}
         except Exception as e:
             return error(str(e.args), 415)

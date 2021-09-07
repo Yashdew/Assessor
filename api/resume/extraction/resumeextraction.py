@@ -17,7 +17,6 @@ class ResumeExtract(object):
             'hobbies' : None
         }
         self.__fileName = fileName
-        self.__get_details(fileName)
 
     def __get_details(self , fileName):
         # Modify and regroup extracted data
@@ -39,8 +38,10 @@ class ResumeExtract(object):
         self.__details["no_of_pages"] = data["no_of_pages"]
         self.__details["links"] = utils.getLinks(links)
         self.__details["total_experience"] = data["total_experience"]
+        
+        return self.__details
 
 
     def get_data(self):
         # Return grouped and modified data
-        return self.__details 
+        return self.__get_details(self.__fileName)
