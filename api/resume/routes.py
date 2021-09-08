@@ -1,6 +1,6 @@
 from resume.error.error import error
 from resume.dummy.dummyapi import dummyApi
-from resume.extraction.resumeextraction import ResumeExtract , utils
+from resume.extraction.resumeextraction import ResumeExtract
 from flask import Flask, jsonify, request, Blueprint
 from flask_cors import CORS, cross_origin
 import os
@@ -31,7 +31,7 @@ def index():
                 raise Exception("Select a file")
             for file in request.files.getlist('file'):
                 fileName = file.filename
-                if utils.allowedFile(fileName):
+                if fileName.endswith('.pdf'):
                     file.save(file.filename)
                     ext = ResumeExtract(fileName)
                     data = ext.get_data()

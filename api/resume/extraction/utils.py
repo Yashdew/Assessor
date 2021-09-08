@@ -1,9 +1,5 @@
 import os
 
-def allowedFile(fileName):
-    if fileName.endswith('.pdf'):
-        return True 
-
 def getProjects():
     return "Projects TBC"
 
