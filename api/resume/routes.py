@@ -29,11 +29,10 @@ def index():
         try:
             if not request.files or request.files['file'].filename == '':
                 raise Exception("Select a file")
-            files = request.files.getlist('file')
-            for file in files:
-                file.save(file.filename)
+            for file in request.files.getlist('file'):
                 fileName = file.filename
                 if utils.allowedFile(fileName):
+                    file.save(file.filename)
                     ext = ResumeExtract(fileName)
                     data = ext.get_data()
                     dataList.append(data)

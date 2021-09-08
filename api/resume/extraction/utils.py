@@ -2,9 +2,7 @@ import os
 
 def allowedFile(fileName):
     if fileName.endswith('.pdf'):
-        return True
-    else:
-        raise ValueError("Invalid Resume File Name/Extension")    
+        return True 
 
 def getProjects():
     return "Projects TBC"
