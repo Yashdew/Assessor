@@ -1,22 +1,26 @@
 import os
 
+
 def getProjects():
     return "Projects TBC"
+
 
 def getAchievements():
     return "Achievements TBC"
 
+
 def getHobbies():
-    return "Hobbies TBC"        
+    return "Hobbies TBC"
+
 
 def getLinks(links):
     urls = {
-        "Linkedin" : None,
-        "Github" : None,
-        "Leetcode" : None,
-        "Codechef" : None,
-        "Codeforces" : None,
-        "Others" : None,
+        "linkedin": None,
+        "github": None,
+        "leetcode": None,
+        "codechef": None,
+        "codeforces": None,
+        "others": None,
     }
     github = list()
     others = list()
@@ -24,15 +28,15 @@ def getLinks(links):
         if "github" in i:
             github.append(i)
         elif "linkedin" in i:
-            urls["Linkedin"] = i    
+            urls["linkedin"] = i
         elif "leetcode" in i:
-            urls["Leetcode"] = i
+            urls["leetcode"] = i
         elif "codechef" in i:
-            urls["Codechef"] = i
+            urls["codechef"] = i
         elif "codeforces" in i:
-            urls["Codeforces"] = i
+            urls["codeforces"] = i
         else:
             others.append(i)
-    urls["Github"] = github    
-    urls["Others"] = others                 
-    return urls  
+    urls["github"] = github
+    urls["others"] = others
+    return urls
