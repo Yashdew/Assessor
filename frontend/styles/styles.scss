@@ -75,29 +75,30 @@ div.progress-bar-container {
 div.job-desc {
     width: 100%;
     display: block;
-    margin: 0 0 5px;
+    //margin: 0 0 5px;
 }
 
 div.float{
-    display: flex;
-	width:80px;
 	height:80px;
+    width:80px;
+    position: absolute;
+	right:40px;
+	bottom:20px;
     margin: 20px auto;
-	color:#1199ff;
-	background:#FFF;
-	border-radius:50px;
+    display: flex;
 	text-align:center;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px #999;
+	color:#1199ff;
+	background:#FFF;
     transition: 0.3s;
-    //box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	border-radius:50px;
+    box-shadow: 0 0 10px #999;
 }
 
 div.float:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     transition: 0.2s;
-    //box-shadow: 0px 0px 20px #999;
+    box-shadow: 0 0 20px #999;
 }
 
 div.float:active {
@@ -109,6 +110,35 @@ div.search-div {
     width: 60%;
     
     margin: 12px auto 0;
+}
+
+.loading-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border-radius: 50%;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #1199ff;
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+}
+  
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 .float-action-button {
@@ -127,4 +157,60 @@ div.search-div {
 
 .inline-block {
     display: inline-block;
+}
+
+.exp-arrow-div {
+    padding: 0 0 10px;
+    height: fit-content;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    transition: 0.5s;
+}
+
+.exp-arrow-div:hover {
+    transition: 0.5s;
+    color: #1199ff !important;
+}
+
+.modal-content-container {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.file-names-container {
+    max-height: 50%;
+    max-width: 80%;
+    overflow-y: scroll;
+}
+
+.file-name-div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 5px;
+    background: #1199ff;
+}
+
+.file-name-title {
+    margin: 0 5px;
 }

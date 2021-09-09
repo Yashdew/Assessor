@@ -1,16 +1,71 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Applicant from "../components/applicant";
 import JobDescription from "../components/job_desc"
+import UploadModal from "../components/upload";
 
-import { applicants, job_desc } from '../components/dummy'
-
-export default function Home() {
+export default function Home(data) {
 
 	const [jobSearch, setJobSearch] = useState('');
 	const [candidateSearch, setCandidateSearch] = useState('');
+
+	const [jobs, setJobs] = useState([]);
+	const [applicants, setApplicants] = useState([]);
+
+	const [loading, setLoading] = useState({ jobs_loading: true, applicants_loading: true })
+	const [uploadModalEnabled, setUploadModalEnabled] = useState(false)
+
+	useEffect(
+		async () => {
+			const jobs_res = await fetch('http://localhost:3000/api/jobs')
+			setJobs(await jobs_res.json())
+			//setLoading({ ...loading, jobs_loaded: false })
+			setLoading(prevLoading => { return { ...prevLoading, jobs_loading: false } })
+			console.log('Jobs Loaded')
+
+			const app_res = await fetch('http://localhost:3000/api/applicants')
+			setApplicants(await app_res.json())
+			//setLoading({ ...loading, applicants_loaded: false })
+			setLoading(prevLoading => { return { ...prevLoading, applicants_loading: false } })
+			console.log('Applicants Loaded')
+
+			console.log(loading)
+		}, []
+	)
+
+	const getJobList = () => {
+		if (jobSearch == '') {
+			return jobs
+		}
+
+		const list = jobs.filter((job) => {
+			return job.company.toLowerCase().includes(jobSearch.toLowerCase())
+				||
+				job.position.toLowerCase().includes(jobSearch.toLowerCase())
+		}).map((job) => {
+			return job
+		})
+
+		return list
+	}
+
+	const getApplicantList = () => {
+		if (candidateSearch == '') {
+			return applicants
+		}
+
+		const list = applicants.filter((applicant) => {
+			return applicant.name.toLowerCase().includes(candidateSearch.toLowerCase())
+				||
+				applicant.college.toLowerCase().includes(candidateSearch.toLowerCase())
+		}).map((applicant) => {
+			return applicant
+		})
+
+		return list
+	}
 
 	return (
 		<div>
@@ -21,69 +76,48 @@ export default function Home() {
 			</head>
 			<div className="main-div">
 				<div className="columns is-gapless box-container">
-					<div className="column is-three-fifths">
+					<div className="column is-three-fifths is-relative">
 						<div className="box">
 							<div className="search-div">
-								<input class="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
+								<input className="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
-
 							{
-								jobSearch == '' ?
-
-									job_desc.map((job) => {
-										//return <Applicant data={applicant} />;
-										return <JobDescription data={job} />
-									})
+								loading['jobs_loading'] ?
+									<div className="loading-container">
+										<div className="loading" />
+									</div>
 									:
-									job_desc.filter((job) => {
-										return job.company.toLowerCase().includes(jobSearch.toLowerCase())
-											||
-											job.position.toLowerCase().includes(jobSearch.toLowerCase())
-
-
-									}).map((job) => {
-										//return <Applicant data={applicant} />;
+									getJobList().map((job) => {
 										return <JobDescription data={job} />
 									})
 							}
-
-							<div className="float">
+							<div className="float" onClick={() => setUploadModalEnabled(true)}>
 								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
 							</div>
 						</div>
 					</div>
-					<div className="column">
+					<div className="column is-relative">
 						<div className="box">
 							<div className="search-div">
-								<input class="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
+								<input className="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
-
 							{
-								candidateSearch == '' ?
-
-									applicants.map((applicant) => {
-										//return <Applicant data={applicant} />;
-										return <Applicant data={applicant} />
-									})
+								loading['applicants_loading'] ?
+									<div className="loading-container">
+										<div className="loading" />
+									</div>
 									:
-									applicants.filter((applicant) => {
-										return applicant.name.toLowerCase().includes(candidateSearch.toLowerCase())
-											||
-											applicant.college.toLowerCase().includes(candidateSearch.toLowerCase())
-
-
-									}).map((applicant) => {
-										//return <Applicant data={applicant} />;
+									getApplicantList().map((applicant) => {
 										return <Applicant data={applicant} />
 									})
 							}
-
-							<div className="float">
+							<div className="float" onClick={() => setUploadModalEnabled(true)}>
 								<FontAwesomeIcon className="float-action-button" icon={faPlus} />
 							</div>
 						</div>
 					</div>
 				</div>
+				<UploadModal enabled={uploadModalEnabled} disable={() => setUploadModalEnabled(false)} />
 			</div>
 		</div>
 	)
