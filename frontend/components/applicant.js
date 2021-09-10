@@ -45,12 +45,12 @@ const Applicant = (applicant) => {
                     </div>
 
                     <div className="column applicant-detail">
-                        <h1 className="title is-3 no-margin">{applicant.data.name}</h1>
-                        <h3 className="subtitle is-6 no-margin">{applicant.data.college}</h3>
+                        <h1 className="title is-3 m-0">{applicant.data.name}</h1>
+                        <h3 className="subtitle is-6 m-0">{applicant.data.college}</h3>
 
                         <div className="detail-line">
-                            <h3 className="title is-6 no-margin inline-block">Experience:</h3>
-                            <h3 className="subtitle is-6 no-margin inline-block">&nbsp; 3+ years</h3>
+                            <h3 className="title is-6 m-0 is-inline-block">Experience:</h3>
+                            <h3 className="subtitle is-6 m-0 is-inline-block">&nbsp; 3+ years</h3>
                         </div>
 
 

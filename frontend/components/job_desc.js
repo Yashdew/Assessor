@@ -18,22 +18,22 @@ const JobDescription = (job) => {
 
                 <div className="job-desc">
 
-                    <h1 className="title is-3 no-margin">{job.data.company}</h1>
+                    <h1 className="title is-3 m-0">{job.data.company}</h1>
                     <h3 className="title is-5">{job.data.position}</h3>
 
                     <div className="detail-line">
-                        <h3 className="title is-6 no-margin inline-block">Location: &nbsp;</h3>
-                        <h3 className="subtitle is-6 no-margin inline-block">{job.data.location}</h3>
+                        <h3 className="title is-6 m-0 is-inline-block">Location: &nbsp;</h3>
+                        <h3 className="subtitle is-6 m-0 is-inline-block">{job.data.location}</h3>
                     </div>
 
                     <div className="detail-line">
-                        <h3 className="title is-6 no-margin inline-block">Experience: &nbsp;</h3>
-                        <h3 className="subtitle is-6 no-margin inline-block">{job.data.experience}</h3>
+                        <h3 className="title is-6 m-0 is-inline-block">Experience: &nbsp;</h3>
+                        <h3 className="subtitle is-6 m-0 is-inline-block">{job.data.experience}</h3>
                     </div>
 
-                    <div className="detail-line no-margin">
-                        <h3 className="title is-6 no-margin inline-block">Skills Required: &nbsp;</h3>
-                        <div className="tags tags-container inline-block">
+                    <div className="detail-line m-0">
+                        <h3 className="title is-6 m-0 is-inline-block">Skills Required: &nbsp;</h3>
+                        <div className="tags tags-container is-inline-block">
                             {
                                 job.data.skills_req.map((skill) => {
                                     return <span className="tag is-info">{skill}</span>
@@ -43,8 +43,8 @@ const JobDescription = (job) => {
                     </div>
 
                     <div className="detail-line exp-div" style={{ display: expanded ? "block" : "none" }}>
-                        <h3 className="title is-6 no-margin inline-block">Summary: &nbsp;</h3>
-                        <h3 className="subtitle is-6 no-margin inline-block">{job.data.summary}</h3>
+                        <h3 className="title is-6 m-0 is-inline-block">Summary: &nbsp;</h3>
+                        <h3 className="subtitle is-6 m-0 is-inline-block">{job.data.summary}</h3>
                     </div>
 
                     <div className="exp-arrow-div" onClick={toggleExpansion}>

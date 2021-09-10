@@ -32,7 +32,6 @@ div.card {
 div.card:hover {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     transition: 0.2s;
-
 }
 
 div.card:active {
@@ -75,7 +74,6 @@ div.progress-bar-container {
 div.job-desc {
     width: 100%;
     display: block;
-    //margin: 0 0 5px;
 }
 
 div.float{
@@ -144,18 +142,6 @@ div.search-div {
     width: 30px;
     height: 30px;
     margin: 25px;
-}
-
-.center-text {
-    text-align: center;
-}
-
-.no-margin {
-    margin: 0 !important;
-}
-
-.inline-block {
-    display: inline-block;
 }
 
 .exp-arrow-div {

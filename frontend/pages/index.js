@@ -79,7 +79,7 @@ export default function Home(data) {
 					<div className="column is-three-fifths is-relative">
 						<div className="box">
 							<div className="search-div">
-								<input className="input is-rounded is-small center-text" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
+								<input className="input is-rounded is-small has-text-centered" value={jobSearch} onChange={e => setJobSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
 							{
 								loading['jobs_loading'] ?
@@ -99,7 +99,7 @@ export default function Home(data) {
 					<div className="column is-relative">
 						<div className="box">
 							<div className="search-div">
-								<input className="input is-rounded is-small center-text" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
+								<input className="input is-rounded is-small has-text-centered" value={candidateSearch} onChange={e => setCandidateSearch(e.target.value)} type="text" placeholder="Search" />
 							</div>
 							{
 								loading['applicants_loading'] ?
