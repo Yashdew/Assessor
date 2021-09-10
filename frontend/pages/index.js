@@ -3,8 +3,8 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Applicant from "../components/applicant";
+import UploadModal from "../components/modal";
 import JobDescription from "../components/job_desc"
-import UploadModal from "../components/upload";
 
 export default function Home(data) {
 
