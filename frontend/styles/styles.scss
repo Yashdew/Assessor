@@ -9,7 +9,8 @@ div.main-div {
 
 div.box-container {
     height: 100%;
-    padding: 8px;
+    padding: 0 5px;
+    margin: 0;
 }
 
 div.box {
@@ -67,6 +68,7 @@ div.progress-bar-container {
     right: 0;
     bottom: 0;
     width: 60% !important;
+    height: unset !important;
     font-size: 1.2vw !important;
     margin: auto;
 }

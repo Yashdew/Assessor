@@ -13,7 +13,7 @@ const Applicant = (applicant) => {
             <div className="card-content">
                 <div className="columns">
 
-                    <div className="column is-one-fifth progress-bar-container">
+                    <div className="column is-one-fifth progress-bar-container is-inline-block">
                         <Progress
                             theme={
                                 {
@@ -44,7 +44,7 @@ const Applicant = (applicant) => {
                         />
                     </div>
 
-                    <div className="column applicant-detail">
+                    <div className="column applicant-detail is-inline-block">
                         <h1 className="title is-3 m-0">{applicant.data.name}</h1>
                         <h3 className="subtitle is-6 m-0">{applicant.data.college}</h3>
 
