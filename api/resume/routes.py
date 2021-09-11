@@ -5,10 +5,10 @@ from flask import Flask, jsonify, request, Blueprint
 from flask_cors import CORS, cross_origin
 import os
 import json
-
+import nltk
 
 main = Blueprint('main', __name__)
-
+#nltk.download('popular')
 
 @main.route('/', methods=['GET'])
 def hello():
