@@ -16,7 +16,7 @@ const UploadModal = (props) => {
 				<div className="modal-content modal-content-container">
 
 					<div style={{ width: "100%" }}>
-						<div className="tabs is-centered is-boxed is-medium">
+						<div className="tabs is-centered is-boxed">
 							<ul>
 								<li className={fileTabSelected ? "is-active" : ""} onClick={() => setFileTabSelected(true)}>
 									<a>
