@@ -43,6 +43,5 @@ class ResumeExtract(object):
         return self.__details
 
     def get_data(self):
-        
         # Return grouped and modified data
         return self.__get_details(self.__fileName)
