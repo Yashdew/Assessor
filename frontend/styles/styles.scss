@@ -1,213 +1,225 @@
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 
 div.main-div {
-    height: 100vh;
+  height: 100vh;
 }
 
 div.box-container {
-    height: 100%;
-    padding: 0 5px;
-    margin: 0;
+  height: 100%;
+  padding: 0 5px;
+  margin: 0;
 }
 
 div.box {
-    height: 100%;
-    margin: 0 6px;
-    padding: 0 10px;
-    background: #1199ff;
-    overflow-y: auto;
-    border-radius: 20px;
+  height: 100%;
+  margin: 0 6px;
+  padding: 0 10px;
+  background: #1199ff;
+  overflow-y: auto;
+  border-radius: 20px;
 }
 
 div.card {
-    margin: 12px 0;
-    height: max-content;
-    border-radius: 20px;
-    transition: 0.3s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin: 12px 0;
+  height: max-content;
+  border-radius: 20px;
+  transition: 0.3s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 div.card:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    transition: 0.2s;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: 0.2s;
 }
 
 div.card:active {
-    transition: 0.2s;
-    box-shadow: 0 0 10px #999;
+  transition: 0.2s;
+  box-shadow: 0 0 10px #999;
 }
 
 div.applicant-detail {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 div.detail-line {
-    margin: 4px 0 0;
+  margin: 4px 0 0;
 }
 
 div.tags-container {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 div.progress-bar-container {
-    text-align: center;
-    position: relative;
+  text-align: center;
+  position: relative;
 }
 
 .react-sweet-progress-circle-outer {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 60% !important;
-    height: unset !important;
-    font-size: 1.2vw !important;
-    margin: auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 60% !important;
+  height: unset !important;
+  font-size: 1.2vw !important;
+  margin: auto;
 }
 
 div.job-desc {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
-div.float{
-	height:80px;
-    width:80px;
-    position: absolute;
-	right:40px;
-	bottom:20px;
-    margin: 20px auto;
-    display: flex;
-	text-align:center;
-    align-items: center;
-    justify-content: center;
-	color:#1199ff;
-	background:#FFF;
-    transition: 0.3s;
-	border-radius:50px;
-    box-shadow: 0 0 10px #999;
+div.float {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  margin: 20px auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #1199ff;
+  background: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #999;
 }
 
 div.float:hover {
-    transition: 0.2s;
-    box-shadow: 0 0 20px #999;
+  transition: 0.2s;
+  box-shadow: 0 0 20px #999;
 }
 
 div.float:active {
-    transition: 0.2s;
-    box-shadow: 0 0 10px #999;
+  transition: 0.2s;
+  box-shadow: 0 0 10px #999;
 }
 
 div.search-div {
-    width: 60%;
-    margin: 12px auto 0;
+  width: 60%;
+  margin: 12px auto 0;
 }
 
 .loading-container {
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .loading {
-    height: 50px;
-    width: 50px;
-    margin: 0;
-    border-radius: 50%;
-    border: 8px solid #f3f3f3;
-    border-top: 8px solid #1199ff;
-    animation: spin 2s linear infinite;
-    -webkit-animation: spin 2s linear infinite; /* Safari */
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  border-radius: 50%;
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #1199ff;
+  animation: spin 2s linear infinite;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
 }
-  
-  /* Safari */
+.has-bg-blue {
+  background-color: #1199ff;
+}
+
+/* Safari */
 @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
-  
+
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .float-action-button {
-    width: 30px;
-    height: 30px;
-    margin: 25px;
+  width: 30px;
+  height: 30px;
+  margin: 25px;
 }
 
 .exp-arrow-div {
-    padding: 0 0 10px;
-    height: fit-content;
-    display: flex;
-    align-items:flex-end;
-    justify-content: flex-end;
-    transition: 0.5s;
+  padding: 0 0 10px;
+  height: fit-content;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  transition: 0.5s;
 }
 
 .exp-arrow-div:hover {
-    transition: 0.5s;
-    color: #1199ff !important;
+  transition: 0.5s;
+  color: #1199ff !important;
 }
 
 .modal-content-container {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    max-width: 95%;
-    height: fit-content;
-    max-height: 95%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  max-width: 95%;
+  height: fit-content;
+  max-height: 95%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  overflow-y: hidden;
 }
 
 .upload-container {
-    width: 100%;
-    height: 100%;
-    //display: flex;
-    padding: 20px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  //display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
 }
 
 .file-names-container {
-    max-height: 50%;
-    max-width: 80%;
-    overflow-y: scroll;
+  max-height: 50%;
+  max-width: 80%;
+  overflow-y: scroll;
 }
 
 .file-name-div {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    border-radius: 12px;
-    margin: 5px;
-    padding: 5px;
-    background: #1199ff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin: 5px;
+  padding: 5px;
+  background: #1199ff;
 }
 
 .file-name-title {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .form-container {
-    display: initial;
+  display: initial;
 }
