@@ -1,14 +1,14 @@
 import FormData from 'form-data';
 import { useState } from 'react';
 
-const FileUpload = (props) => {
+const JobDescriptionFileUpload = () => {
   const [files, setFiles] = useState({});
 
   const fileChange = async (event) => {
     setFiles(event.target.files);
   };
 
-  const uploadFiles = (props) => {
+  const uploadFiles = () => {
     const formData = new FormData();
 
     for (let i = 0; i < files.length; i++) {
@@ -28,9 +28,9 @@ const FileUpload = (props) => {
     });
   };
 
-  return props.enabled ? (
-    <div className='upload-container'>
-      <h1 className='title is-1'>Upload Files</h1>
+  return (
+    <div className='has-text-centered'>
+      <h1 className='title is-5'>Job Description</h1>
 
       <div className='file has-name is-boxed is-justify-content-center'>
         <label className='file-label'>
@@ -67,11 +67,14 @@ const FileUpload = (props) => {
         })}
       </div>
 
-      <button className='button is-primary my-3' onClick={uploadFiles}>
+      <button
+        className='button is-primary my-3 has-text-centered'
+        onClick={uploadFiles}
+      >
         Upload
       </button>
     </div>
-  ) : null;
+  );
 };
 
-export default FileUpload;
+export default JobDescriptionFileUpload;

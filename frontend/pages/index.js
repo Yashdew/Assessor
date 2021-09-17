@@ -3,7 +3,11 @@ import { useEffect, useState } from 'react';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Applicant from '../components/applicant';
-import UploadModal from '../components/modal';
+import UploadModal, {
+  Modal,
+  JobDescriptionModalChildren,
+  CandidateModalChildren,
+} from '../components/modal';
 import JobDescription from '../components/job_desc';
 import { Loader } from '../components/loader';
 import { getJobList } from '../utils/filterJobs';
@@ -17,7 +21,8 @@ export default function Home() {
   const [applicants, setApplicants] = useState([]);
 
   const [loading, setLoading] = useState(true);
-  const [uploadModalEnabled, setUploadModalEnabled] = useState(false);
+  const [jobModalEnabled, setJobModalEnabled] = useState(false);
+  const [candModalEnabled, setCandModalEnabled] = useState(false);
 
   useEffect(async () => {
     const jobs_res = await fetch('http://localhost:3000/api/jobs');
@@ -60,10 +65,7 @@ export default function Home() {
               {getJobList(jobSearch, jobs).map((job) => (
                 <JobDescription data={job} />
               ))}
-              <div
-                className='float'
-                onClick={() => setUploadModalEnabled(true)}
-              >
+              <div className='float' onClick={() => setJobModalEnabled(true)}>
                 <FontAwesomeIcon
                   className='float-action-button'
                   icon={faPlus}
@@ -88,10 +90,7 @@ export default function Home() {
                   <Applicant data={applicant} />
                 )
               )}
-              <div
-                className='float'
-                onClick={() => setUploadModalEnabled(true)}
-              >
+              <div className='float' onClick={() => setCandModalEnabled(true)}>
                 <FontAwesomeIcon
                   className='float-action-button'
                   icon={faPlus}
@@ -100,10 +99,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <UploadModal
-          enabled={uploadModalEnabled}
-          disable={() => setUploadModalEnabled(false)}
-        />
+        <Modal
+          active={jobModalEnabled}
+          setActive={() => setJobModalEnabled(false)}
+        >
+          <JobDescriptionModalChildren />
+        </Modal>
+        <Modal
+          active={candModalEnabled}
+          setActive={() => setCandModalEnabled(false)}
+        >
+          <CandidateModalChildren />
+        </Modal>
       </div>
     </div>
   );
