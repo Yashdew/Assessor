@@ -1,7 +1,7 @@
 import JobDescriptionFileUpload from './FileUpload';
 import JobDescriptionFormUpload from './FormUpload';
 import { faClipboard, faFile } from '@fortawesome/free-regular-svg-icons';
-import { Tabs, Panel } from './tabs';
+import { Tabs, Panel } from './Tabs';
 
 export const Modal = ({ active, setActive, children }) => {
   return (
