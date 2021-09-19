@@ -89,7 +89,7 @@ export let applicants = [
     {
         id: 1,
         company: "Persistent Systems",
-        position: "Bakend Developer",
+        position: "Backend Developer",
         location: "Pune",
         experience: "2-3 Years",
         skills_req: ['Django', 'Python', 'Node', 'Javascript'],
