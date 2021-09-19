@@ -1,7 +1,9 @@
 import { Progress } from 'react-sweet-progress';
 import 'react-sweet-progress/lib/style.css';
 
-const Applicant = ({ data: { score, name, college, skills } }) => {
+const Applicant = ({
+  data: { personal_details, education, total_experience, skills, score },
+}) => {
   return (
     <div className='card'>
       <div className='card-content'>
@@ -26,13 +28,17 @@ const Applicant = ({ data: { score, name, college, skills } }) => {
           </div>
 
           <div className='column applicant-detail is-inline-block'>
-            <h1 className='title is-3 m-0'>{name}</h1>
-            <h3 className='subtitle is-6 m-0'>{college}</h3>
+            <h1 className='title is-3 m-0'>
+              {personal_details ? personal_details?.name : ''}
+            </h1>
+            <h3 className='subtitle is-6 m-0'>
+              {education ? education[0] : ''}
+            </h3>
 
             <div className='detail-line'>
               <h3 className='title is-6 m-0 is-inline-block'>Experience:</h3>
               <h3 className='subtitle is-6 m-0 is-inline-block'>
-                &nbsp; 3+ years
+                &nbsp; {total_experience ? total_experience + ' years' : 0}
               </h3>
             </div>
 

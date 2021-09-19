@@ -16,10 +16,10 @@ export const JobDescriptionModalChildren = () => {
   return (
     <div className='box has-background-white py-2'>
       <Tabs>
-        <Panel title='File' icon={faFile}>
+        <Panel title='Resume' icon={faFile}>
           <JobDescriptionFileUpload />
         </Panel>
-        <Panel title='Form' icon={faClipboard}>
+        <Panel title='Job Description' icon={faClipboard}>
           <JobDescriptionFormUpload />
         </Panel>
       </Tabs>
@@ -27,17 +27,17 @@ export const JobDescriptionModalChildren = () => {
   );
 };
 
-export const CandidateModalChildren = () => {
-  return (
-    <div className='box has-background-white py-2'>
-      <Tabs>
-        <Panel title='File' icon={faFile}>
-          Hey
-        </Panel>
-        <Panel title='Form' icon={faClipboard}>
-          What?
-        </Panel>
-      </Tabs>
-    </div>
-  );
-};
+// export const CandidateModalChildren = () => {
+//   return (
+//     <div className='box has-background-white py-2'>
+//       <Tabs>
+//         <Panel title='File' icon={faFile}>
+//           Hey
+//         </Panel>
+//         <Panel title='Form' icon={faClipboard}>
+//           What?
+//         </Panel>
+//       </Tabs>
+//     </div>
+//   );
+// };
