@@ -35,7 +35,7 @@ class ResumeExtract(object):
         self.__details["projects"] = utils.getProjects()
         self.__details["achievements"] = utils.getAchievements()
         self.__details["hobbies"] = utils.getHobbies()
-        self.__details["experience"] = ' '.join(data["experience"])
+        self.__details["experience"] = data["experience"]
         self.__details["no_of_pages"] = data["no_of_pages"]
         self.__details["links"] = utils.getLinks(links)
         self.__details["total_experience"] = data["total_experience"]
