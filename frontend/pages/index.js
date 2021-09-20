@@ -3,15 +3,12 @@ import { useEffect, useState } from 'react';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Applicant from '../components/applicant';
-import UploadModal, {
-  Modal,
-  JobDescriptionModalChildren,
-  CandidateModalChildren,
-} from '../components/modal';
+import { Modal, JobDescriptionModalChildren } from '../components/modal';
 import JobDescription from '../components/job_desc';
 import { Loader } from '../components/loader';
 import { getJobList } from '../utils/filterJobs';
 import { getApplicantList } from '../utils/filterApplicants';
+import { ApplicantsContext } from '../utils/contexts';
 
 export default function Home() {
   const [jobSearch, setJobSearch] = useState('');
@@ -22,21 +19,18 @@ export default function Home() {
 
   const [loading, setLoading] = useState(true);
   const [jobModalEnabled, setJobModalEnabled] = useState(false);
-  const [candModalEnabled, setCandModalEnabled] = useState(false);
 
   useEffect(async () => {
-    const jobs_res = await fetch('http://localhost:3000/api/jobs');
+    const jobs_res = await fetch('api/jobs');
     setJobs(await jobs_res.json());
 
-    const app_res = await fetch('http://localhost:3000/api/applicants');
+    const app_res = await fetch('api/applicants');
     setApplicants(await app_res.json());
 
     setLoading(false);
   }, []);
 
   if (loading) return <Loader />;
-
-  console.log(jobs, applicants);
 
   return (
     <div>
@@ -65,12 +59,6 @@ export default function Home() {
               {getJobList(jobSearch, jobs).map((job) => (
                 <JobDescription data={job} />
               ))}
-              <div className='float' onClick={() => setJobModalEnabled(true)}>
-                <FontAwesomeIcon
-                  className='float-action-button'
-                  icon={faPlus}
-                />
-              </div>
             </div>
           </div>
 
@@ -85,12 +73,17 @@ export default function Home() {
                   placeholder='Search'
                 />
               </div>
+
               {getApplicantList(candidateSearch, applicants).map(
                 (applicant) => (
                   <Applicant data={applicant} />
                 )
               )}
-              <div className='float' onClick={() => setCandModalEnabled(true)}>
+
+              <div
+                className='float is-clickable'
+                onClick={() => setJobModalEnabled(true)}
+              >
                 <FontAwesomeIcon
                   className='float-action-button'
                   icon={faPlus}
@@ -103,13 +96,9 @@ export default function Home() {
           active={jobModalEnabled}
           setActive={() => setJobModalEnabled(false)}
         >
-          <JobDescriptionModalChildren />
-        </Modal>
-        <Modal
-          active={candModalEnabled}
-          setActive={() => setCandModalEnabled(false)}
-        >
-          <CandidateModalChildren />
+          <ApplicantsContext.Provider value={applicants}>
+            <JobDescriptionModalChildren />
+          </ApplicantsContext.Provider>
         </Modal>
       </div>
     </div>

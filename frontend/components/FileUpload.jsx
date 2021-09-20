@@ -1,23 +1,36 @@
 import FormData from 'form-data';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import axios from 'axios';
+import { ApplicantsContext } from '../utils/contexts';
 
 const JobDescriptionFileUpload = () => {
+  const context = useContext(ApplicantsContext);
+  console.log(context);
   const [files, setFiles] = useState({});
+  const [loading, setLoading] = useState(false);
 
   const fileChange = async (event) => {
     setFiles(event.target.files);
   };
 
-  const uploadFiles = () => {
+  const uploadFiles = async () => {
+    setLoading(true);
     const formData = new FormData();
 
     for (let i = 0; i < files.length; i++) {
-      formData.append(`files[${i}]`, files[i]);
+      formData.append(`file`, files[i]);
     }
 
-    for (var [key, value] of formData.entries()) {
-      console.log(key, value);
-    }
+    const result = await axios({
+      method: 'post',
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}/postResume`,
+      data: formData,
+      headers: {
+        'Content-Type': `multipart/form-data`,
+      },
+    });
+    context.push(result.data[0]);
+    setLoading(false);
   };
 
   const deleteFile = (key) => {
@@ -30,7 +43,7 @@ const JobDescriptionFileUpload = () => {
 
   return (
     <div className='has-text-centered'>
-      <h1 className='title is-5'>Job Description</h1>
+      <h1 className='title is-5'>Upload pdf to analyze</h1>
 
       <div className='file has-name is-boxed is-justify-content-center'>
         <label className='file-label'>
@@ -68,7 +81,9 @@ const JobDescriptionFileUpload = () => {
       </div>
 
       <button
-        className='button is-primary my-3 has-text-centered'
+        className={`button is-primary my-3 has-text-centered ${
+          loading ? 'is-loading' : ''
+        }`}
         onClick={uploadFiles}
       >
         Upload
