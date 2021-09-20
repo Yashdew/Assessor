@@ -1,6 +1,3 @@
-import os
-
-
 class Links:
     def __init__(self):
         self.urls = {
