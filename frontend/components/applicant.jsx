@@ -74,14 +74,14 @@ const Applicant = ({
         </div>
         <Accordion>
           <div className='title is-6'> Experience </div>
-          <div class='mb-4'>
+          <div class='mb-4 ml-3'>
             {experience?.map((item) => {
               return <p>{item} </p>;
             })}
           </div>
 
-          <div className='title is-6'> External Links : </div>
-          <div className='columns is-multiline'>
+          <div className='title is-6'> External Links </div>
+          <div className='columns is-multiline  ml-3'>
             {personal_details.mobile_number && (
               <div className='column is-narrow'>
                 <FontAwesomeIcon icon={faPhoneAlt} />
@@ -114,7 +114,7 @@ const Links = (values) => {
     values.values;
 
   return (
-    <div className='columns is-multiline'>
+    <div className='columns is-multiline  ml-3'>
       {leetcode && (
         <div className='column is-narrow'>
           <a target='_blank' href={leetcode}>
