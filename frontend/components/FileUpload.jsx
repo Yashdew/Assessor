@@ -5,13 +5,16 @@ import { ApplicantsContext } from '../utils/contexts';
 
 const JobDescriptionFileUpload = () => {
   const context = useContext(ApplicantsContext);
+  console.log(context);
   const [files, setFiles] = useState({});
+  const [loading, setLoading] = useState(false);
 
   const fileChange = async (event) => {
     setFiles(event.target.files);
   };
 
   const uploadFiles = async () => {
+    setLoading(true);
     const formData = new FormData();
 
     for (let i = 0; i < files.length; i++) {
@@ -26,8 +29,8 @@ const JobDescriptionFileUpload = () => {
         'Content-Type': `multipart/form-data`,
       },
     });
-    console.log(result.data);
     context.push(result.data[0]);
+    setLoading(false);
   };
 
   const deleteFile = (key) => {
@@ -78,7 +81,9 @@ const JobDescriptionFileUpload = () => {
       </div>
 
       <button
-        className='button is-primary my-3 has-text-centered'
+        className={`button is-primary my-3 has-text-centered ${
+          loading ? 'is-loading' : ''
+        }`}
         onClick={uploadFiles}
       >
         Upload

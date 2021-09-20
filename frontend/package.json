@@ -19,6 +19,10 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-sweet-progress": "^1.1.2",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "@iconify/icons-akar-icons": "^1.1.23",
+    "@iconify/icons-cib": "^1.1.0",
+    "@iconify/icons-simple-icons": "^1.1.43",
+    "@iconify/react": "^3.0.1"
   }
 }
