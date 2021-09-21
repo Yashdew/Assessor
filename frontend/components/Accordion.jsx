@@ -2,13 +2,7 @@ import React, { useState } from 'react';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export const Accordion = ({ children }) => {
-  const [expanded, setExpanded] = useState(false);
-
-  const toggleExpansion = () => {
-    setExpanded((prevExpanded) => !prevExpanded);
-  };
-
+export const Accordion = ({ children, expanded }) => {
   return (
     <div>
       <div
@@ -17,7 +11,7 @@ export const Accordion = ({ children }) => {
       >
         {children}
       </div>
-      <div className='exp-arrow-div' onClick={toggleExpansion}>
+      <div className='exp-arrow-div'>
         <FontAwesomeIcon icon={expanded ? faChevronUp : faChevronDown} />
       </div>
     </div>

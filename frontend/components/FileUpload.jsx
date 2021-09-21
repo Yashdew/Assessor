@@ -1,11 +1,12 @@
 import FormData from 'form-data';
-import { useState, useContext } from 'react';
+import { useState, useContext, useRef } from 'react';
 import axios from 'axios';
 import { ApplicantsContext } from '../utils/contexts';
+import Reward from 'react-rewards';
 
 const JobDescriptionFileUpload = () => {
+  const rewardRef = useRef();
   const context = useContext(ApplicantsContext);
-  console.log(context);
   const [files, setFiles] = useState({});
   const [loading, setLoading] = useState(false);
 
@@ -30,6 +31,7 @@ const JobDescriptionFileUpload = () => {
       },
     });
     context.push(result.data[0]);
+    rewardRef.current.rewardMe();
     setLoading(false);
   };
 
@@ -79,15 +81,31 @@ const JobDescriptionFileUpload = () => {
           );
         })}
       </div>
-
-      <button
-        className={`button is-primary my-3 has-text-centered ${
-          loading ? 'is-loading' : ''
-        }`}
-        onClick={uploadFiles}
+      <Reward
+        ref={rewardRef}
+        type='confetti'
+        config={{
+          fakingRequest: false,
+          angle: 90,
+          decay: 0.91,
+          spread: 88,
+          startVelocity: 35,
+          elementCount: 169,
+          elementSize: 10,
+          lifetime: 800,
+          zIndex: 10,
+          springAnimation: true,
+        }}
       >
-        Upload
-      </button>
+        <button
+          className={`button is-primary my-3 has-text-centered ${
+            loading ? 'is-loading' : ''
+          }`}
+          onClick={uploadFiles}
+        >
+          Upload
+        </button>
+      </Reward>
     </div>
   );
 };

@@ -13,6 +13,7 @@ import codechefIcon from '@iconify/icons-simple-icons/codechef';
 import codeforcesIcon from '@iconify/icons-simple-icons/codeforces';
 import linkedinFill from '@iconify/icons-akar-icons/linkedin-fill';
 import githubFill from '@iconify/icons-akar-icons/github-fill';
+import { useState } from 'react';
 
 const Applicant = ({
   data: {
@@ -26,11 +27,19 @@ const Applicant = ({
   },
 }) => {
   if (!score) score = Math.round(Math.random() * 99 + 1);
-  console.log(experience);
+
+  const [expanded, setExpanded] = useState(false);
+  const toggleExpansion = () => {
+    setExpanded((prevExpanded) => !prevExpanded);
+  };
+
   return (
     <div className='card'>
       <div className='card-content'>
-        <div className='columns'>
+        <div
+          className='columns  is-clickable'
+          onClick={() => toggleExpansion()}
+        >
           <div className='column is-one-fifth progress-bar-container is-inline-block'>
             <Progress
               theme={{
@@ -72,7 +81,7 @@ const Applicant = ({
             </div>
           </div>
         </div>
-        <Accordion>
+        <Accordion expanded={expanded}>
           <div className='title is-6'> Experience </div>
           <div class='mb-4 ml-3'>
             {experience?.map((item) => {
