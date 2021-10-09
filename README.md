@@ -1,6 +1,7 @@
 # Assessor
 ```
-An open-source Resume Rater tool for Recuiters and Candidates. The Whole Idea is to Simplify the Hiring Process by shortlisting Candidates based on the resume. 
+An open-source Resume Rater tool for Recuiters and Candidates. 
+The Whole Idea is to Simplify the Hiring Process by shortlisting Candidates based on the resume. 
 ```
 [![GitHub stars](https://img.shields.io/github/stars/Yashdew/Assessor)](https://github.com/Yashdew/Assessor/stargazers)
 [![GitHub](https://img.shields.io/github/license/Yashdew/Assessor)](https://github.com/Yashdew/Assessor/blob/main/LICENSE) 
