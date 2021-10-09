@@ -1,7 +1,8 @@
+
 # Assessor
 ```
-An open-source Resume Rater tool for Recuiters and Candidates. 
-The Whole Idea is to Simplify the Hiring Process by shortlisting Candidates based on the resume. 
+An open-source Resume Analyzer and Ranking tool for recruiters and candidates. 
+The main idea is to simplify the hiring process by shortlisting candidates based on their resumes. 
 ```
 [![GitHub stars](https://img.shields.io/github/stars/Yashdew/Assessor)](https://github.com/Yashdew/Assessor/stargazers)
 [![GitHub](https://img.shields.io/github/license/Yashdew/Assessor)](https://github.com/Yashdew/Assessor/blob/main/LICENSE) 
@@ -72,9 +73,14 @@ The Whole Idea is to Simplify the Hiring Process by shortlisting Candidates base
 
 
 ### Overview
+The current codebase provides a basic Frontend to upload Job Descriptions and Resume.
+Backend provides REST API and communication with ML Model to provide extracted and analyzed data.
+  
+#### API Overview
 
-The backend would return a list of dictionary objects with result as follows:[POST REQUEST]
+The route `/api/v1/postResume` accepts `POST` request with a file (pdf) attribute, it returns the following JSON on successful resume parsing.
 
+**Example JSON Output* 
 ```
 [
     {
@@ -86,49 +92,19 @@ The backend would return a list of dictionary objects with result as follows:[PO
         "skills": [
             "Pandas",
             "Coding",
-            "Architecture",
             "C",
             "Flask",
             "Css",
-            "Photography",
             "Java",
-            "Programming",
             "C++",
             "Django",
             "Rest",
-            "Editing",
-            "Statistics",
-            "Design",
-            "Sql server",
-            "Js",
-            "Apex",
-            "Sql",
-            "Ui",
-            "Information technology",
-            "Apis",
-            "Analysis",
-            "Api",
-            "Engineering",
-            "Algorithms",
-            "Video",
-            "Github",
-            "Html",
-            "Database",
-            "Python"
         ],
         "education": [
             "SMT. KASHIBAI NAVALE COLLEGE OF ENGINEERING
             BE in Information Technology
             2018-2022 | Pune, MH
             Cum. GPA: 8.14",
-            "KENDRIYA VIDYALAYA, CMM
-            12th CBSE
-            2018 | Jabalpur, MP
-            Percentage: 70.6%",
-            "KENDRIYA VIDYALAYA, CMM
-            10th CBSE
-            2016 | Jabalpur, MP
-            Percentage: 7.6 CGPA"
         ],
         "experience": [
             "eQ Technologic | Software Engineer Intern
@@ -154,7 +130,6 @@ The backend would return a list of dictionary objects with result as follows:[PO
                 "https://www.spoj.com/users/yashdew/",
                 "https://attendancesknhc.herokuapp.com/",
                 "https://chatistics.vercel.app/",
-                "https://drive.google.com/file/d/1-UrtlUygeujyDXvZPhI5fW9E1wICL_Qd/view",
                 "https://auth.geeksforgeeks.org/user/yashdewangan123456/practice/"
             ]
         },
@@ -199,9 +174,9 @@ The backend would return a list of dictionary objects with result as follows:[PO
         ]
     }
 ]
-```
 
-
+```  
+  
 ### Built With
 
 Frameworks used in the website
@@ -218,14 +193,16 @@ Frameworks used in the website
 ### Prerequisites
 
 Tools needed to run this project
-* python
-* yarn 
+* Python
+* Yarn 
+* Node
+* Loneliness
   
 ###  📦 Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Yashdew/Assessor.git
    ```
 2. Install packages
 
@@ -262,13 +239,6 @@ Frontend would be running on PORT 3000
 ```bash
 yarn run dev
 ```
-
-
-## Usage
-
-* For analysing your personal or group chats.
-
-
 
 <!-- ROADMAP -->
 ## 🚧 Roadmap
