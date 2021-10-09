@@ -1,15 +1,14 @@
 from resume.error.error import error
 from resume.dummy.dummyapi import dummyApi
-
+from resume.extraction.resumeextraction import ResumeExtract
 from flask import Flask, jsonify, request, Blueprint
 from flask_cors import CORS, cross_origin
 import os
-
-
+import json
+import nltk
 
 main = Blueprint('main', __name__)
-
-
+#nltk.download('popular')
 
 @main.route('/', methods=['GET'])
 def hello():
@@ -18,26 +17,24 @@ def hello():
 
 @main.route('/api/v1/dummy')
 def api():
-    return jsonify({'message': "testing other routes"})
+    return dummyApi()
 
 
-@main.route('/api/post', methods=['POST'])
+@main.route('/api/v1/postResume', methods=['POST'])
 @cross_origin()
 def index():
+    dataList = list()
     if request.method == 'POST':
         try:
             if not request.files or request.files['file'].filename == '':
                 raise Exception("Select a file")
-            file = request.files['file']
-            file.save(file.filename)
-            fileName = file.filename
-            if not file.filename.endswith('.pdf'):
-                os.remove(file.filename)
-                raise Exception("Wrong file type")
-            os.remove(file.filename)    
-            return dummyApi()
+            for file in request.files.getlist('file'):
+                fileName = file.filename
+                if fileName.endswith('.pdf'):
+                    file.save(file.filename)
+                    ext = ResumeExtract(fileName)
+                    dataList.append(ext.get_data())
+                    os.remove(fileName)
+            return json.dumps(dataList)
         except Exception as e:
-            os.remove(file.filename)
             return error(str(e.args), 415)
-
-    
