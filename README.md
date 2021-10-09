@@ -11,5 +11,26 @@ The Whole Idea is to Simplify the Hiring Process by shortlisting Candidates base
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a >
+    <img src="img/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Install Backend and Frontend, instructions in respective folder's readme.md
+  <h3 align="center">Assessor</h3>
+
+  <p align="center">
+   
+An open-source Resume Rater tool for Recuiters and Candidates.  
+    <br />
+    <a ><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://assessor-nagjcfdvp-yashdew.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/Yashdew/Assessor/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Yashdew/Assessor/issues">Request Feature</a>
+  </p>
+</p>
