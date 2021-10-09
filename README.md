@@ -68,7 +68,139 @@ The Whole Idea is to Simplify the Hiring Process by shortlisting Candidates base
 <!--![product-gif](/images/Chatistics.gif)-->
 
 
-#### Chatistics is an open source WhatsApp chat analyzer, which provides fun and meaningful insights. We respect privacy and do not store the chats, we only store filenames for our analytics.
+#### <SOMETHING ABOUT PROJECT>
+
+
+### Overview
+
+The backend would return a list of dictionary objects with result as follows:[POST REQUEST]
+
+```
+[
+    {
+        "personal_details": {
+            "name": "Yash Dewangan",
+            "email": "yashdewangan123456@gmail.com",
+            "mobile_number": "8602842290"
+        },
+        "skills": [
+            "Pandas",
+            "Coding",
+            "Architecture",
+            "C",
+            "Flask",
+            "Css",
+            "Photography",
+            "Java",
+            "Programming",
+            "C++",
+            "Django",
+            "Rest",
+            "Editing",
+            "Statistics",
+            "Design",
+            "Sql server",
+            "Js",
+            "Apex",
+            "Sql",
+            "Ui",
+            "Information technology",
+            "Apis",
+            "Analysis",
+            "Api",
+            "Engineering",
+            "Algorithms",
+            "Video",
+            "Github",
+            "Html",
+            "Database",
+            "Python"
+        ],
+        "education": [
+            "SMT. KASHIBAI NAVALE COLLEGE OF ENGINEERING
+            BE in Information Technology
+            2018-2022 | Pune, MH
+            Cum. GPA: 8.14",
+            "KENDRIYA VIDYALAYA, CMM
+            12th CBSE
+            2018 | Jabalpur, MP
+            Percentage: 70.6%",
+            "KENDRIYA VIDYALAYA, CMM
+            10th CBSE
+            2016 | Jabalpur, MP
+            Percentage: 7.6 CGPA"
+        ],
+        "experience": [
+            "eQ Technologic | Software Engineer Intern
+            Aug 2021 – Present
+            Implemented various services/APIs needed for new features required in latest release
+            Learnt about SOA architecture, modular coding i.e. keeping future use in mind
+            Implementation of concepts such as Tagging Entities and  Groups/User Authorization & Permissions for Entities
+            Worked on Backend technologies such as Spring and Java with SQL Server as Database"
+        ],
+        "no_of_pages": 1,
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/iyashdewangan/",
+            "leetcode": "https://leetcode.com/Yashdew/",
+            "codechef": "https://www.codechef.com/users/yashdew",
+            "codeforces": "http://codeforces.com/profile/yashdewangan123456",
+            "github": [
+                "https://github.com/Yashdew/Attendance-Tracker",
+                "https://github.com/Yashdew",
+                "https://github.com/SkSumit/Chatistics"
+            ],
+            "others": [
+                "mailto:yashdewangan123456@gmail.com",
+                "https://www.spoj.com/users/yashdew/",
+                "https://attendancesknhc.herokuapp.com/",
+                "https://chatistics.vercel.app/",
+                "https://drive.google.com/file/d/1-UrtlUygeujyDXvZPhI5fW9E1wICL_Qd/view",
+                "https://auth.geeksforgeeks.org/user/yashdewangan123456/practice/"
+            ]
+        },
+        "total_experience": 0.17,
+        "projects": [
+            "CHATISTICS
+            GitHub Live URL
+            Dec 2020 - Feb 2021
+            An open-source WhatsApp chats analyser and statistics.
+            Application, which provides various meaningful insights.
+            Time complexity reduces from 20 seconds. to 5 seconds.
+            Used Flask for implementing backend REST APIs with firebase database for analysis of traffic.
+            Pandas for data pre-processing.
+            Used NextJS and Bulma UI for frontend.
+            500+ users and 30 stars on GitHub.",
+
+            "ATTENDANCE-TRACKER
+            GitHub Live URL
+            July 2020 – Aug 2020
+            A full stack web application for monitoring the attendance in Microsoft Teams from logs file of the meeting. (Sample)
+            Optimization of code took around 3 seconds in Data pre-processing.
+            Worked on building the major backend part and frontend.
+            Used Flask for implementing Backend and HTML, CSS & JS for frontend.
+            Used Mongo DB and Google sheet API for Database.
+            Data pre-processing of large logs files for calculating time stamps of students using pandas
+            50+ users in our college."
+        ],
+        "achievements": [
+            "Codechef - Maximum rating 1603 (3-star).",
+            "Codechef – March Lunchtime 2021 Div-3, secured a rank of 825 out of 7000+ participants.",
+            "Leetcode – 150+ Solved Questions.",
+            "250+ Solved Questions on GFG, Codechef, SPOJ and Codeforces.",
+            "Participated in Google kickstart 2021 Round A, Round C & Round D.",
+            "Secured 1st rank out of 30+ participants in Scaler Edge Apex 2021. (SKN Edition)",
+            "Represented Hack Club SKN projects in Hack Club Asia Summit 2021.",
+            "Participated in more than 30+ coding competition."
+        ],
+        "hobbies": [
+            "Photography and Video editing",
+            "Traveling and exploring new places.",
+            "Gaming"
+        ]
+    }
+]
+```
+
 
 ### Built With
 
