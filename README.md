@@ -21,8 +21,7 @@ The Whole Idea is to Simplify the Hiring Process by shortlisting Candidates base
   <h3 align="center">Assessor</h3>
 
   <p align="center">
-   
-An open-source Resume Rater tool for Recuiters and Candidates.  
+   An open-source Resume Rater tool for Recuiters and Candidates.  
     <br />
     <a ><strong>Explore the docs »</strong></a>
     <br />
