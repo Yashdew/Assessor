@@ -1,9 +1,15 @@
 import { Accordion } from './Accordion';
 import 'react-sweet-progress/lib/style.css';
+import { useState } from 'react';
 
 const JobDescription = (job) => {
+  const [expanded, setExpanded] = useState(false);
+  const toggleExpansion = () => {
+    setExpanded((prevExpanded) => !prevExpanded);
+  };
+
   return (
-    <div className='card'>
+    <div className='card is-clickable' onClick={() => toggleExpansion()}>
       <div className='card-content pb-0'>
         <div className='job-desc'>
           <h1 className='title is-3 m-0'>{job.data.company}</h1>
@@ -35,7 +41,7 @@ const JobDescription = (job) => {
               })}
             </div>
           </div>
-          <Accordion>
+          <Accordion expanded={expanded}>
             <h3 className='title is-6 m-0 is-inline-block'>Summary: &nbsp;</h3>
             <h3 className='subtitle is-6 m-0 is-inline-block'>
               {job.data.summary}
@@ -48,4 +54,3 @@ const JobDescription = (job) => {
 };
 
 export default JobDescription;
-let x;

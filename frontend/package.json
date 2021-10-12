@@ -12,17 +12,18 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
+    "@iconify/icons-akar-icons": "^1.1.23",
+    "@iconify/icons-cib": "^1.1.0",
+    "@iconify/icons-simple-icons": "^1.1.43",
+    "@iconify/react": "^3.0.1",
     "axios": "^0.21.4",
     "bulma": "^0.9.2",
     "form-data": "^4.0.0",
     "next": "11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-rewards": "^1.1.2",
     "react-sweet-progress": "^1.1.2",
-    "sass": "^1.32.8",
-    "@iconify/icons-akar-icons": "^1.1.23",
-    "@iconify/icons-cib": "^1.1.0",
-    "@iconify/icons-simple-icons": "^1.1.43",
-    "@iconify/react": "^3.0.1"
+    "sass": "^1.32.8"
   }
 }
