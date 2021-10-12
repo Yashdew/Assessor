@@ -19,6 +19,72 @@ def hello():
 def api():
     return dummyApi()
 
+@main.route('/api/v1/postJD', methods=['POST'])
+@cross_origin()
+def job_description():
+    data = dict()
+    if request.method == 'POST':
+        try: 
+            data = {
+                "company_name": request.form.get("company_name"),
+                "designation": request.form.get("designation"),
+                "experience": request.form.get("experience"),
+                "location": request.form.get("location"),
+                "job_preference_remote": request.form.get("job_preference"),
+                "skills": request.form.get("skills"),
+                "job_description": request.form.get("job_description")
+            }
+
+            # Validating (string cannot be empty)
+            if data["company_name"] == "":
+                raise Exception("Company name must not be empty")
+            if data["designation"] == "":
+                raise Exception("Designation must not be empty")
+            if data["location"] == "":
+                raise Exception("Location must not be empty")
+            if data["skills"] == "":
+                raise Exception("No Skill was informed")
+            if data["job_description"] == "":
+                raise Exception("Job description must not be empty")
+
+            # Formatting data
+            data["company_name"] = data["company_name"].title()
+            data["designation"] = data["designation"].title()
+            data["location"] = data["location"].title()
+            data["skills"] = data["skills"].title()
+            data["job_description"] = data["job_description"].capitalize()
+
+            # Transform skills from string format separate by comma or space to list format
+            skills = list()
+
+            if ";" in data["skills"]:
+                skills = data["skills"].split(";")
+            else:
+                skills = data["skills"].split(" ")
+
+            length = len(skills)
+            i = 0
+
+            while i < length:
+                if skills[i].strip() == "":
+                    skills.pop(i)
+                    length -= 1
+                    i += 1
+                    continue
+
+                skills[i] = skills[i].strip()
+                i += 1
+                
+
+            data["skills"] = skills
+
+            data = {
+                "job_summary": data
+            }
+
+            return json.dumps(data)
+        except Exception as e:
+            return error(str(e.args), 400)
 
 @main.route('/api/v1/postResume', methods=['POST'])
 @cross_origin()
