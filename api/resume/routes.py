@@ -35,6 +35,8 @@ def index():
                     ext = ResumeExtract(fileName)
                     dataList.append(ext.get_data())
                     os.remove(fileName)
+            if not dataList:
+                raise Exception("Select atleast 1 PDF file")        
             return json.dumps(dataList)
         except Exception as e:
             return error(str(e.args), 415)

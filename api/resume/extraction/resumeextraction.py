@@ -6,7 +6,11 @@ from pyresparser import ResumeParser
 class ResumeExtract(object):
     def __init__(self, fileName):
         self.__details = {
-            'personal_details': None,
+            'personal_details': {
+                'name': None,
+                'email': None,
+                'mobile_number': None,
+            },
             'skills': None,
             'education': None,
             'experience': None,
@@ -25,11 +29,9 @@ class ResumeExtract(object):
         links = pdf.get_references_as_dict()
         data = ResumeParser(fileName).get_extracted_data()
 
-        self.__details["personal_details"] = {
-            'name': data["name"],
-            'email': data["email"],
-            'mobile_number': data["mobile_number"],
-        }
+        self.__details["personal_details"]['name'] = data["name"]
+        self.__details["personal_details"]['email'] = data["email"]
+        self.__details["personal_details"]['mobile_number'] = data["mobile_number"]
         self.__details["skills"] = data["skills"]
         self.__details["education"] = data["degree"]
         self.__details["projects"] = utils.getProjects()
