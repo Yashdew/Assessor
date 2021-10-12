@@ -7,6 +7,8 @@ import os
 import json
 import nltk
 
+from resume.extraction.utils import formatStringIntoList, validateStringAttr
+
 main = Blueprint('main', __name__)
 #nltk.download('popular')
 
@@ -36,16 +38,11 @@ def job_description():
             }
 
             # Validating (string cannot be empty)
-            if data["company_name"] == "":
-                raise Exception("Company name must not be empty")
-            if data["designation"] == "":
-                raise Exception("Designation must not be empty")
-            if data["location"] == "":
-                raise Exception("Location must not be empty")
-            if data["skills"] == "":
-                raise Exception("No Skill was informed")
-            if data["job_description"] == "":
-                raise Exception("Job description must not be empty")
+            validateStringAttr(data["company_name"])
+            validateStringAttr(data["designation"])
+            validateStringAttr(data["location"])
+            validateStringAttr(data["skills"])
+            validateStringAttr(data["job_description"])
 
             # Formatting data
             data["company_name"] = data["company_name"].title()
@@ -55,28 +52,7 @@ def job_description():
             data["job_description"] = data["job_description"].capitalize()
 
             # Transform skills from string format separate by comma or space to list format
-            skills = list()
-
-            if ";" in data["skills"]:
-                skills = data["skills"].split(";")
-            else:
-                skills = data["skills"].split(" ")
-
-            length = len(skills)
-            i = 0
-
-            while i < length:
-                if skills[i].strip() == "":
-                    skills.pop(i)
-                    length -= 1
-                    i += 1
-                    continue
-
-                skills[i] = skills[i].strip()
-                i += 1
-                
-
-            data["skills"] = skills
+            data["skills"] = formatStringIntoList(data["skills"])
 
             data = {
                 "job_summary": data
