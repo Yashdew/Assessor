@@ -37,7 +37,8 @@ const JobDescription = (job) => {
             </h3>
             <div className='tags tags-container is-inline-block'>
               {job.data.skills_req.map((skill) => {
-                return <span className='tag is-info'>{skill}</span>;
+                return  <span className={`tag ${skill.substring(0, 1).toLowerCase()}`}
+                >{skill}</span>;
               })}
             </div>
           </div>

@@ -52,13 +52,122 @@ div.detail-line {
 
 div.tags-container {
   margin: 10px 0;
+  
 }
 
 div.progress-bar-container {
   text-align: center;
   position: relative;
 }
+.tag{
+  &.a{
+  color:white;
+  background-color:hsl(348, 100%, 61%);
+}
+&.b{
+  color:white;
+  background-color:hsl(48, 100%, 67%);
+}
+&.c{
+  color:white;
+  background-color:#222f86;
+}
 
+&.d{
+  color:white;
+  background-color:#ce791e;
+}
+&.e{
+  color:white;
+  background-color:#A2416B;
+}
+&.f{
+  color:white;
+  background-color:hsl(171, 80%, 39%);
+}
+&.g{
+  color:white;
+  background-color:#00947e;
+}
+&.h{
+  color:white;
+  background-color:#512D6D;
+}
+&.i{
+  color:white;
+  background-color:#1E3163;
+}
+
+&.j{
+  color:white;
+  background-color:#005A8D;
+}
+&.k{
+  color:white;
+  background-color:#E9896A;
+}
+&.l{
+  color:white;
+  background-color:#BEAEE2;
+}
+&.m{
+  color:white;
+  background-color:#FF865E;
+}
+&.n{
+  color:white;
+  background-color:#C37B89;
+}
+&.o{
+  color:white;
+  background-color:#4B3869;
+}
+&.p{
+  color:white;
+  background-color:#4594df;
+}
+&.q{
+  color:white;
+  background-color:#9D84B7;
+}
+&.r{
+  color:white;
+  background-color:#916BBF;
+}
+&.s{
+  color:white;
+  background-color:#512D6D;
+}
+&.t{
+  color:white;
+  background-color:#476072;
+}
+&.u{
+  color:white;
+  background-color:#3e8ed0;
+}
+&.v{
+  color:white;
+  background-color:#518bde;
+}
+&.w{
+  color:white;
+  background-color:#fed604;
+}
+&.x{
+  color:white;
+  background-color:#48c78e;
+}
+&.y{
+  color:white;
+  background-color:#9a89b4;
+
+}
+&.z{
+  color:white;
+  background-color:#ea4aaa;
+}
+}
 .react-sweet-progress-circle-outer {
   display: flex !important;
   align-items: center !important;
@@ -130,7 +239,7 @@ div.search-div {
   -webkit-animation: spin 2s linear infinite; /* Safari */
 }
 .has-bg-blue {
-  background-color: #1199ff;
+  color: #1199ff;
 }
 
 /* Safari */

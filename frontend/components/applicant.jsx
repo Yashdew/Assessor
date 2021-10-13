@@ -76,7 +76,8 @@ const Applicant = ({
 
             <div className='tags tags-container'>
               {skills?.map((skill) => {
-                return <span className='tag is-info'>{skill}</span>;
+                return <span className={`tag ${skill.substring(0, 1).toLowerCase()}`}
+                >{skill}</span>;
               })}
             </div>
           </div>
