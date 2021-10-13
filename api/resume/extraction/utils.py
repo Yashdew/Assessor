@@ -25,6 +25,7 @@ def getLinks(links: dict):
                 if string in i:
                     link.urls[string] = i
                     linkscopy.remove(i)
+                    break
 
     link.urls["others"] = linkscopy
     return link.urls
