@@ -1,3 +1,5 @@
+import re
+
 class Links:
     def __init__(self):
         self.urls = {
@@ -41,9 +43,30 @@ def getAchievements():
 def getHobbies():
     return "Hobbies TBC"
 
-def validateStringAttr(attr):
-    if attr == "":
-        raise Exception("Attribute must not be empty")
+def validateStringAttr(dict: dict):
+    regex = "^[a-zA-Z]+( [a-zA-Z]+)*$"
+    pattern = re.compile(regex)
+
+    if not pattern.match(dict["company_name"]):
+        raise Exception("""Company name must contain only characters, be not empty 
+            and have only one whitespace between words.""")
+    
+    if not pattern.match(dict["designation"]):
+        raise Exception("""Designation must contain only characters, be not empty 
+            and have only one whitespace between words.""")
+
+    if not pattern.match(dict["location"]):
+        raise Exception("""Designation must contain only characters, be not empty 
+            and have only one whitespace between words.""")
+
+    regex = "^(?!\s*$)"
+    pattern = re.compile(regex)
+
+    if not pattern.match(dict["skills"]):
+        raise Exception("Skills must not be empty.")
+
+    if not pattern.match(dict["job_description"]):
+        raise Exception("Job description must not be empty.")
 
 def formatStringIntoList(string):
     skills = list()

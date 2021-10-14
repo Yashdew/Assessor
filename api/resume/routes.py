@@ -37,12 +37,8 @@ def job_description():
                 "job_description": request.form.get("job_description")
             }
 
-            # Validating (string cannot be empty)
-            validateStringAttr(data["company_name"])
-            validateStringAttr(data["designation"])
-            validateStringAttr(data["location"])
-            validateStringAttr(data["skills"])
-            validateStringAttr(data["job_description"])
+            # Validating data's attributes
+            validateStringAttr(data)
 
             # Formatting data
             data["company_name"] = data["company_name"].title()
