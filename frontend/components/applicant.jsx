@@ -76,7 +76,17 @@ const Applicant = ({
 
             <div className='tags tags-container'>
               {skills?.map((skill) => {
-                return <span className='tag is-info'>{skill}</span>;
+                return <span
+                  className='tag is-info'
+                  style={{
+                    backgroundColor:
+                      skill === "Java" ? 'green' :
+                        skill === "Python" ? "blue" :
+                          skill === "C" ? "purple" :
+                            skill === "C++" ? "purple" : ''
+                  }} >
+                  {skill}
+                </span>;
               })}
             </div>
           </div>
