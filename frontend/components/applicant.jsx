@@ -60,10 +60,10 @@ const Applicant = ({
           </div>
 
           <div className='column applicant-detail is-inline-block'>
-            <h1 className='title is-3 m-0'>
+            <h1 className='name-header'>
               {personal_details ? personal_details?.name : ''}
             </h1>
-            <h3 className='subtitle is-6 m-0'>
+            <h3 className='name-subtitle'>
               {education ? education[0] : ''}
             </h3>
 
@@ -78,13 +78,7 @@ const Applicant = ({
               {skills?.map((skill) => {
                 return <span
                   className='tag is-info'
-                  style={{
-                    backgroundColor:
-                      skill === "Java" ? 'green' :
-                        skill === "Python" ? "blue" :
-                          skill === "C" ? "purple" :
-                            skill === "C++" ? "purple" : ''
-                  }} >
+                >
                   {skill}
                 </span>;
               })}

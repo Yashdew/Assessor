@@ -11,13 +11,8 @@ const JobDescription = (job) => {
   return (
     <div className='card is-clickable' onClick={() => toggleExpansion()}>
       <div className='card-content pb-0'>
-        {/*  <div className='job-desc'>
-        <h1 className='title is-3 m-0'>{job.data.company}</h1>
-          <h3 className='title is-5'>{job.data.position}</h3> */}
-        {/* <div className='card-item'> */}
-        {/* <div className='card-inner'> */}
-        <h1 className='company'>{job.data.company}</h1>
-        <h3 className='position'>{job.data.position}</h3>
+        <h1 className='name-header'>{job.data.company}</h1>
+        <h3 className='name-subtitle'>{job.data.position}</h3>
         <br />
 
         <div className='detail-line m-0'>

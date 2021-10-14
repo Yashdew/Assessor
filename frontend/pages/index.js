@@ -19,6 +19,7 @@ export default function Home() {
 
   const [loading, setLoading] = useState(true);
   const [jobModalEnabled, setJobModalEnabled] = useState(false);
+  const [dataJobs, setDataJobs] = useState(true);
 
   useEffect(async () => {
     const jobs_res = await fetch('api/jobs');
@@ -32,6 +33,57 @@ export default function Home() {
 
   if (loading) return <Loader />;
 
+  const toggleData = () => {
+    setDataJobs(!dataJobs);
+  };
+
+  const getSearch = () => {
+    return (
+      <div className='search-div'>
+        <input
+          className='input is-rounded is-small has-text-centered'
+          value={dataJobs ? jobSearch : candidateSearch}
+          onChange={dataJobs ? (e) => setJobSearch(e.target.value) : (e) => setCandidateSearch(e.target.value)}
+          type='text'
+          placeholder='Search'
+        />
+      </div>
+    )
+  };
+
+  const getJobsData = () => {
+    return (
+      <>
+        {getJobList(jobSearch, jobs).map((job) => (
+          <JobDescription data={job} />
+        ))}
+      </>
+    )
+  };
+
+  const getCandidatesData = () => {
+    return (
+      <>
+
+        {getApplicantList(candidateSearch, applicants).map(
+          (applicant) => (
+            <Applicant data={applicant} />
+          )
+        )}
+
+        <div
+          className='float is-clickable'
+          onClick={() => setJobModalEnabled(true)}
+        >
+          <FontAwesomeIcon
+            className='float-action-button'
+            icon={faPlus}
+          />
+        </div>
+      </>
+    )
+  };
+
   return (
     <div>
       <Head>
@@ -44,59 +96,28 @@ export default function Home() {
       </Head>
 
       <div className='main-div'>
-        <div className='header'>
-          Resume Analyser
-        </div>
 
-        <button type="button" onclick="myFunction()">Jobs</button>
-        <button type="button">Candidates</button>
+        <div class="grid-container">
+
+          <div class="item1">
+            <div className='header'>Resume Analyser</div>
+          </div>
+
+          <div class="item2">
+            {getSearch()}
+          </div>
+
+        </div>
 
         <div className='columns box-container m-0'>
 
           <div className='column is-relative p-0 py-2'>
             <div className='box'>
-              <div className='search-div'>
-                <input
-                  className='input is-rounded is-small has-text-centered'
-                  value={jobSearch}
-                  onChange={(e) => setJobSearch(e.target.value)}
-                  type='text'
-                  placeholder='Search'
-                />
-              </div>
-              {getJobList(jobSearch, jobs).map((job) => (
-                <JobDescription data={job} />
-              ))}
-            </div>
-          </div>
-
-          <div className='column is-relative p-0 py-2'>
-            <div className='box'>
-              <div className='search-div'>
-                <input
-                  className='input is-rounded is-small has-text-centered'
-                  value={candidateSearch}
-                  onChange={(e) => setCandidateSearch(e.target.value)}
-                  type='text'
-                  placeholder='Search'
-                />
-              </div>
-
-              {getApplicantList(candidateSearch, applicants).map(
-                (applicant) => (
-                  <Applicant data={applicant} />
-                )
-              )}
-
-              <div
-                className='float is-clickable'
-                onClick={() => setJobModalEnabled(true)}
-              >
-                <FontAwesomeIcon
-                  className='float-action-button'
-                  icon={faPlus}
-                />
-              </div>
+              <button className='button' onClick={toggleData}>{dataJobs ? 'Candidates' : 'Jobs'}</button>
+              {dataJobs
+                ? getJobsData()
+                : getCandidatesData()
+              }
             </div>
           </div>
 
