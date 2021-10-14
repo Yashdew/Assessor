@@ -48,8 +48,8 @@ def validateStringAttr(attr):
 def formatStringIntoList(string):
     skills = list()
 
-    if ";" in string:
-        skills = string.split(";")
+    if "," in string:
+        skills = string.split(",")
     else:
         skills = string.split(" ")
 
