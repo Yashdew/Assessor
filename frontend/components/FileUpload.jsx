@@ -10,9 +10,8 @@ const JobDescriptionFileUpload = () => {
 	const [files, setFiles] = useState([]);
 	const [loading, setLoading] = useState(false);
 
-	const isFileValid = (file) => {
-		return file.size * 0.000001 <= 10 && file.name.split(".").pop() === "pdf";
-	};
+	const isFileValid = (file) =>
+		file.size * 0.000001 <= 10 && file.name.split(".").pop() === "pdf";
 
 	const fileChange = async (event) => {
 		if (!isFileValid(event.target.files[0])) {
