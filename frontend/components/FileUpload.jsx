@@ -10,15 +10,22 @@ const JobDescriptionFileUpload = () => {
 	const [files, setFiles] = useState([]);
 	const [loading, setLoading] = useState(false);
 
+	const isFileValid = (file) => {
+		return file.size * 0.000001 <= 10 && file.name.split(".").pop() === "pdf";
+	};
+
 	const fileChange = async (event) => {
+		if (!isFileValid(event.target.files[0])) {
+			return alert(
+				"File must be a pdf file and its size is lower than or equal to 10MB"
+			);
+		}
 		setFiles([...files, event.target.files]);
 	};
 
 	const uploadFiles = async () => {
 		setLoading(true);
 		const formData = new FormData();
-		console.log(files);
-		console.log(files[0][0].name);
 		for (let i = 0; i < files.length; i++) {
 			formData.append(`file`, files[i]);
 		}
