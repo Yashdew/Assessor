@@ -6,7 +6,7 @@ import re
 import json
 
 
-class ResumeParser:
+class ResumeDataExtractor:
     pdffile = ''
     text = ''
     formatted_text = []
@@ -314,5 +314,5 @@ class ResumeParser:
         return json.dumps(resume_fields, indent=2)
 
 
-parser = ResumeParser('FilePath')
+parser = ResumeDataExtractor('Yash-Dewangan-CV.pdf')
 print(parser.parse_resume())
