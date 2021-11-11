@@ -227,3 +227,15 @@ div.search-div {
 a {
   color: #000;
 }
+
+.fade {
+  animation: fade-in-keyframes 3s;
+}
+@keyframes fade-in-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
