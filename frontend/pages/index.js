@@ -1,23 +1,27 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import FlipMove from "react-flip-move";
+
 import Applicant from "../components/applicant";
-import { Modal, JobDescriptionModalChildren } from "../components/modal";
 import JobDescription from "../components/job_desc";
 import { Loader } from "../components/loader";
+import { Modal, JobDescriptionModalChildren } from "../components/modal";
 import { getJobList } from "../utils/filterJobs";
 import { getApplicantList } from "../utils/filterApplicants";
 import { ApplicantsContext } from "../utils/contexts";
 
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
   const [jobSearch, setJobSearch] = useState("");
   const [candidateSearch, setCandidateSearch] = useState("");
 
   const [jobs, setJobs] = useState([]);
   const [applicants, setApplicants] = useState([]);
 
-  const [loading, setLoading] = useState(true);
   const [jobModalEnabled, setJobModalEnabled] = useState(false);
 
   const [selectedJD, setSelectedJD] = useState(1);
@@ -80,12 +84,13 @@ export default function Home() {
                   placeholder="Search"
                 />
               </div>
-
-              {getApplicantList(candidateSearch, applicants).map(
-                (applicant) => (
-                  <Applicant data={applicant} />
-                )
-              )}
+              <FlipMove>
+                {getApplicantList(candidateSearch, applicants).map(
+                  (applicant, index) => {
+                    return <Applicant key={index} data={applicant} />;
+                  }
+                )}
+              </FlipMove>
 
               <div
                 className="float is-clickable"

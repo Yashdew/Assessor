@@ -22,6 +22,7 @@
     "next": "11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-flip-move": "^3.0.4",
     "react-rewards": "^1.1.2",
     "react-sweet-progress": "^1.1.2",
     "sass": "^1.32.8"

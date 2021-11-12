@@ -61,8 +61,12 @@ const JobDescription = ({ data, selected, setSelected }) => {
                 Skills Required: &nbsp;
               </h3>
               <div className="tags tags-container is-inline-block">
-                {data.skills_req.map((skill) => {
-                  return <span className="tag is-info">{skill}</span>;
+                {data.skills_req.map((skill, index) => {
+                  return (
+                    <span key={index} className="tag is-info">
+                      {skill}
+                    </span>
+                  );
                 })}
               </div>
             </div>

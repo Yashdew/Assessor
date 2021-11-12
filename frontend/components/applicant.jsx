@@ -1,6 +1,7 @@
+import React, { useState } from "react";
+
 import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
-import { Accordion } from "./Accordion";
 import {
   faPhoneAlt,
   faEnvelope,
@@ -13,29 +14,31 @@ import codechefIcon from "@iconify/icons-simple-icons/codechef";
 import codeforcesIcon from "@iconify/icons-simple-icons/codeforces";
 import linkedinFill from "@iconify/icons-akar-icons/linkedin-fill";
 import githubFill from "@iconify/icons-akar-icons/github-fill";
-import { useState } from "react";
+import { Accordion } from "./Accordion";
 
-const Applicant = ({
-  data: {
-    personal_details,
-    education,
-    total_experience,
-    skills,
-    score,
-    links,
-    experience,
-  },
-}) => {
-  if (!score) score = Math.round(Math.random() * 99 + 1);
+const Applicant = React.forwardRef((props, ref) => {
+  const {
+    data: {
+      personal_details,
+      education,
+      total_experience,
+      skills,
+      score,
+      links,
+      experience,
+    },
+  } = props;
 
   const [expanded, setExpanded] = useState(false);
+
+  if (!score) score = Math.round(Math.random() * 99 + 1);
 
   const toggleExpansion = () => {
     setExpanded((prevExpanded) => !prevExpanded);
   };
 
   return (
-    <div className={`card `}>
+    <div className={`card `} ref={ref} {...props}>
       <div className="card-content">
         <div
           className="columns  is-clickable"
@@ -76,17 +79,21 @@ const Applicant = ({
             </div>
 
             <div className="tags tags-container">
-              {skills?.map((skill) => {
-                return <span className="tag is-info">{skill}</span>;
+              {skills?.map((skill, index) => {
+                return (
+                  <span key={index} className="tag is-info">
+                    {skill}
+                  </span>
+                );
               })}
             </div>
           </div>
         </div>
         <Accordion expanded={expanded}>
           <div className="title is-6"> Experience </div>
-          <div class="mb-4 ml-3">
-            {experience?.map((item) => {
-              return <p>{item} </p>;
+          <div className="mb-4 ml-3">
+            {experience?.map((item, index) => {
+              return <p key={index}>{item} </p>;
             })}
           </div>
 
@@ -112,7 +119,7 @@ const Applicant = ({
       </div>
     </div>
   );
-};
+});
 
 const getColor = (value) => {
   const hue = Math.round(value);
@@ -157,9 +164,9 @@ const Links = (values) => {
         </div>
       )}
 
-      {github?.map((link) => {
+      {github?.map((link, index) => {
         return (
-          <div className="column is-narrow">
+          <div key={index} className="column is-narrow">
             <a target="_blank" href={link}>
               <Icon icon={githubFill} />
             </a>
@@ -167,9 +174,9 @@ const Links = (values) => {
         );
       })}
 
-      {others?.map((link) => {
+      {others?.map((link, index) => {
         return (
-          <div className="column is-narrow">
+          <div key={index} className="column is-narrow">
             <a target="_blank" href={link}>
               <FontAwesomeIcon icon={faExternalLinkAlt} />
             </a>
