@@ -1,20 +1,10 @@
 import React, { useState } from "react";
-
 import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
-import {
-  faPhoneAlt,
-  faEnvelope,
-  faExternalLinkAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Icon } from "@iconify/react";
-import leetcodeIcon from "@iconify/icons-cib/leetcode";
-import codechefIcon from "@iconify/icons-simple-icons/codechef";
-import codeforcesIcon from "@iconify/icons-simple-icons/codeforces";
-import linkedinFill from "@iconify/icons-akar-icons/linkedin-fill";
-import githubFill from "@iconify/icons-akar-icons/github-fill";
 import { Accordion } from "./Accordion";
+import Links from "./Links";
 
 const Applicant = React.forwardRef((props, ref) => {
   const {
@@ -74,7 +64,8 @@ const Applicant = React.forwardRef((props, ref) => {
             <div className="detail-line">
               <h3 className="title is-6 m-0 is-inline-block">Experience:</h3>
               <h3 className="subtitle is-6 m-0 is-inline-block">
-                &nbsp; {total_experience ? total_experience + " years" : 0}
+                &nbsp;{" "}
+                {total_experience ? total_experience + " years" : "0 years"}
               </h3>
             </div>
 
@@ -102,7 +93,6 @@ const Applicant = React.forwardRef((props, ref) => {
             {personal_details.mobile_number && (
               <div className="column is-narrow">
                 <FontAwesomeIcon icon={faPhoneAlt} />
-                {"  "}
                 {personal_details.mobile_number}
               </div>
             )}
@@ -124,67 +114,6 @@ const Applicant = React.forwardRef((props, ref) => {
 const getColor = (value) => {
   const hue = Math.round(value);
   return ["hsl(", hue, ", 50%, 50%)"].join("");
-};
-
-const Links = (values) => {
-  const { github, leetcode, codechef, codeforces, linkedin, others } =
-    values.values;
-
-  return (
-    <div className="columns is-multiline  ml-3">
-      {leetcode && (
-        <div className="column is-narrow">
-          <a target="_blank" href={leetcode}>
-            <Icon icon={leetcodeIcon} />
-          </a>
-        </div>
-      )}
-
-      {codechef && (
-        <div className="column is-narrow">
-          <a target="_blank" href={codechef}>
-            <Icon icon={codechefIcon} />
-          </a>
-        </div>
-      )}
-
-      {codeforces && (
-        <div className="column is-narrow">
-          <a target="_blank" href={codeforces}>
-            <Icon icon={codeforcesIcon} />
-          </a>
-        </div>
-      )}
-
-      {linkedin && (
-        <div className="column is-narrow">
-          <a target="_blank" href={linkedin}>
-            <Icon icon={linkedinFill} />
-          </a>
-        </div>
-      )}
-
-      {github?.map((link, index) => {
-        return (
-          <div key={index} className="column is-narrow">
-            <a target="_blank" href={link}>
-              <Icon icon={githubFill} />
-            </a>
-          </div>
-        );
-      })}
-
-      {others?.map((link, index) => {
-        return (
-          <div key={index} className="column is-narrow">
-            <a target="_blank" href={link}>
-              <FontAwesomeIcon icon={faExternalLinkAlt} />
-            </a>
-          </div>
-        );
-      })}
-    </div>
-  );
 };
 
 export default Applicant;

@@ -1,40 +1,30 @@
 import Head from "next/head";
-import { useEffect, useState } from "react";
-import FlipMove from "react-flip-move";
+import { useState, useContext } from "react";
 
-import Applicant from "../components/applicant";
+import Applicant from "../components/Applicant";
 import JobDescription from "../components/job_desc";
-import { Loader } from "../components/loader";
+import { Loader } from "../components/Loader";
 import { Modal, JobDescriptionModalChildren } from "../components/modal";
+
 import { getJobList } from "../utils/filterJobs";
 import { getApplicantList } from "../utils/filterApplicants";
 import { ApplicantsContext } from "../utils/contexts";
+import { StoreContext } from "../utils/store";
 
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SearchBar } from "../components/SearchBar";
 
 export default function Home() {
-  const [loading, setLoading] = useState(true);
-
-  const [jobSearch, setJobSearch] = useState("");
-  const [candidateSearch, setCandidateSearch] = useState("");
-
-  const [jobs, setJobs] = useState([]);
-  const [applicants, setApplicants] = useState([]);
+  const {
+    loading: [loading, setLoading],
+    jd: [jobDescriptions, setJobDescriptions],
+    candidates: [candidates, setCandidates],
+    jdSearch: [jdSearchKeyword, setJdSearchKeyword],
+    candidateSearch: [candidateSearchKeyword, setCandidateSearchKeyword],
+  } = useContext(StoreContext);
 
   const [jobModalEnabled, setJobModalEnabled] = useState(false);
-
-  const [selectedJD, setSelectedJD] = useState(1);
-
-  useEffect(async () => {
-    const jobs_res = await fetch("api/jobs");
-    setJobs(await jobs_res.json());
-
-    const app_res = await fetch("api/applicants");
-    setApplicants(await app_res.json());
-
-    setLoading(false);
-  }, [selectedJD]);
 
   if (loading) return <Loader />;
 
@@ -43,55 +33,35 @@ export default function Home() {
       <Head>
         <title>Resume Analyser</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
-        ></link>
       </Head>
 
       <div className="main-div">
-        <div className="columns box-container m-0">
+        <div className="columns box-container  m-0">
           <div className="column is-relative p-0 py-2">
             <div className="box">
-              <div className="search-div">
-                <input
-                  className="input is-rounded is-small has-text-centered"
-                  value={jobSearch}
-                  onChange={(e) => setJobSearch(e.target.value)}
-                  type="text"
-                  placeholder="Search"
-                />
-              </div>
-              {getJobList(jobSearch, jobs).map((job) => (
-                <JobDescription
-                  key={job.id}
-                  data={job}
-                  selected={selectedJD}
-                  setSelected={setSelectedJD}
-                />
+              <SearchBar
+                keyword={jdSearchKeyword}
+                setKeyword={setJdSearchKeyword}
+                placeholder={"Search Job Description"}
+              />
+              {getJobList(jdSearchKeyword, jobDescriptions).map((job) => (
+                <JobDescription key={job.id} data={job} />
               ))}
             </div>
           </div>
 
           <div className="column is-relative p-0 py-2">
             <div className="box">
-              <div className="search-div">
-                <input
-                  className="input is-rounded is-small has-text-centered"
-                  value={candidateSearch}
-                  onChange={(e) => setCandidateSearch(e.target.value)}
-                  type="text"
-                  placeholder="Search"
-                />
-              </div>
-              <FlipMove>
-                {getApplicantList(candidateSearch, applicants).map(
-                  (applicant, index) => {
-                    return <Applicant key={index} data={applicant} />;
-                  }
-                )}
-              </FlipMove>
-
+              <SearchBar
+                keyword={candidateSearchKeyword}
+                setKeyword={setCandidateSearchKeyword}
+                placeholder={"Search Candidates"}
+              />
+              {getApplicantList(candidateSearchKeyword, candidates).map(
+                (applicant, index) => {
+                  return <Applicant key={index} data={applicant} />;
+                }
+              )}
               <div
                 className="float is-clickable"
                 onClick={() => setJobModalEnabled(true)}
@@ -108,9 +78,7 @@ export default function Home() {
           active={jobModalEnabled}
           setActive={() => setJobModalEnabled(false)}
         >
-          <ApplicantsContext.Provider value={applicants}>
-            <JobDescriptionModalChildren />
-          </ApplicantsContext.Provider>
+          <JobDescriptionModalChildren />
         </Modal>
       </div>
     </div>

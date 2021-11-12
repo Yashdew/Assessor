@@ -1,17 +1,21 @@
+import { useState, useContext } from "react";
 import { Accordion } from "./Accordion";
-import "react-sweet-progress/lib/style.css";
-import { useState } from "react";
 import { faCircle, faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { StoreContext } from "../utils/store";
 
-const JobDescription = ({ data, selected, setSelected }) => {
+const JobDescription = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
+  const {
+    selectedJd: [selectedJd, setSelectedJd],
+  } = useContext(StoreContext);
+
   const toggleExpansion = () => {
     setExpanded((prevExpanded) => !prevExpanded);
   };
 
   const handleSelect = (id) => {
-    setSelected(id);
+    setSelectedJd(id);
   };
 
   return (
@@ -20,7 +24,7 @@ const JobDescription = ({ data, selected, setSelected }) => {
         <div className="job-desc">
           <h1 className="title is-3 m-0 is-flex  is-justify-content-space-between is-align-items-center">
             {data.company}{" "}
-            {selected === data.id ? (
+            {selectedJd === data.id ? (
               <FontAwesomeIcon
                 icon={faCheckCircle}
                 size="xs"
