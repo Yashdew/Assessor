@@ -2,18 +2,17 @@ import Head from "next/head";
 import { useState, useContext } from "react";
 
 import Applicant from "../components/Applicant";
-import JobDescription from "../components/job_desc";
+import JobDescription from "../components/JobDescription";
 import { Loader } from "../components/Loader";
 import { Modal, JobDescriptionModalChildren } from "../components/modal";
+import { SearchBar } from "../components/SearchBar";
 
 import { getJobList } from "../utils/filterJobs";
 import { getApplicantList } from "../utils/filterApplicants";
-import { ApplicantsContext } from "../utils/contexts";
 import { StoreContext } from "../utils/store";
 
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { SearchBar } from "../components/SearchBar";
 
 export default function Home() {
   const {

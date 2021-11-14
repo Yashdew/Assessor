@@ -1,6 +1,8 @@
 from . import utils
 import pdfx
 from pyresparser import ResumeParser
+import random
+
 
 
 class ResumeExtract(object):
@@ -19,7 +21,8 @@ class ResumeExtract(object):
             'total_experience': None,
             'projects': None,
             'achievements': None,
-            'hobbies': None
+            'hobbies': None,
+            'score':None
         }
         self.__fileName = fileName
 
@@ -41,6 +44,8 @@ class ResumeExtract(object):
         self.__details["no_of_pages"] = data["no_of_pages"]
         self.__details["links"] = utils.getLinks(links)
         self.__details["total_experience"] = data["total_experience"]
+        # For testing, replace with real algo later
+        self.__details["score"] = random.randint(60,100)
 
         return self.__details
 

@@ -18,17 +18,24 @@ const JobDescription = ({ data }) => {
     setSelectedJd(id);
   };
 
+  const isSelected = selectedJd === data.id;
+
   return (
-    <div className="card">
+    <div className={`card ${isSelected ? "has-background-dark" : ""} `}>
       <div className="card-content pb-0">
         <div className="job-desc">
-          <h1 className="title is-3 m-0 is-flex  is-justify-content-space-between is-align-items-center">
+          <Title
+            isSelected={isSelected}
+            classNameString={
+              "title is-3 m-0 is-flex  is-justify-content-space-between is-align-items-center"
+            }
+          >
             {data.company}{" "}
-            {selectedJd === data.id ? (
+            {isSelected ? (
               <FontAwesomeIcon
                 icon={faCheckCircle}
                 size="xs"
-                onClick={() => handleSelect(0)}
+                onClick={() => handleSelect(-1)}
                 className="is-clickable"
               />
             ) : (
@@ -39,31 +46,52 @@ const JobDescription = ({ data }) => {
                 className="is-clickable"
               />
             )}
-          </h1>
-          <h3 className="title is-5">{data.position}</h3>
-          <div className="is-clickable" onClick={() => toggleExpansion()}>
+          </Title>
+          <Title isSelected={isSelected} classNameString={"title is-5"}>
+            {data.position}
+          </Title>
+
+          <div
+            className={`${isSelected ? "has-text-white" : ""} is-clickable`}
+            onClick={() => toggleExpansion()}
+          >
             <div className="detail-line">
-              <h3 className="title is-6 m-0 is-inline-block">
+              <Title
+                isSelected={isSelected}
+                classNameString={" title is-6 m-0 is-inline-block"}
+              >
                 Location: &nbsp;
-              </h3>
-              <h3 className="subtitle is-6 m-0 is-inline-block">
+              </Title>
+              <Title
+                isSelected={isSelected}
+                classNameString={"subtitle is-6 m-0 is-inline-block"}
+              >
                 {data.location}
-              </h3>
+              </Title>
             </div>
 
             <div className="detail-line">
-              <h3 className="title is-6 m-0 is-inline-block">
+              <Title
+                isSelected={isSelected}
+                classNameString={" title is-6 m-0 is-inline-block"}
+              >
                 Experience: &nbsp;
-              </h3>
-              <h3 className="subtitle is-6 m-0 is-inline-block">
+              </Title>
+              <Title
+                isSelected={isSelected}
+                classNameString={"subtitle is-6 m-0 is-inline-block"}
+              >
                 {data.experience}
-              </h3>
+              </Title>
             </div>
 
             <div className="detail-line m-0">
-              <h3 className="title is-6 m-0 is-inline-block">
+              <Title
+                isSelected={isSelected}
+                classNameString={"title is-6 m-0 is-inline-block"}
+              >
                 Skills Required: &nbsp;
-              </h3>
+              </Title>
               <div className="tags tags-container is-inline-block">
                 {data.skills_req.map((skill, index) => {
                   return (
@@ -91,3 +119,11 @@ const JobDescription = ({ data }) => {
 };
 
 export default JobDescription;
+
+const Title = ({ isSelected = false, classNameString, children }) => {
+  return (
+    <h1 className={`${isSelected ? "has-text-white" : ""} ${classNameString}`}>
+      {children}
+    </h1>
+  );
+};

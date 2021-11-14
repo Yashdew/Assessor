@@ -5,8 +5,8 @@ export const getApplicantList = (searchString, applicants) => {
         .toLowerCase()
         .includes(searchString.toLowerCase());
     })
-    //Backend is not ready yet, sort randomly on JD select
-    .sort(() => 0.5 - Math.random());
+
+    .sort((a, b) => b.score - a.score);
 
   return list;
 };

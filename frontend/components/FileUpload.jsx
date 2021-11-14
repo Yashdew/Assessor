@@ -9,7 +9,7 @@ const JobDescriptionFileUpload = () => {
   const {
     candidates: [candidates, setCandidates],
   } = useContext(StoreContext);
-  console.log(candidates);
+
   const [files, setFiles] = useState({});
   const [loading, setLoading] = useState(false);
 
@@ -33,7 +33,8 @@ const JobDescriptionFileUpload = () => {
         "Content-Type": `multipart/form-data`,
       },
     });
-    setCandidates([...candidates, result.data]);
+    console.log(candidates, result.data[0]);
+    setCandidates([...candidates, result.data[0]]);
     rewardRef.current.rewardMe();
     setLoading(false);
   };
@@ -70,9 +71,9 @@ const JobDescriptionFileUpload = () => {
       </div>
 
       <div className="tags file-names-container tags-container">
-        {Object.keys(files).map((key) => {
+        {Object.keys(files).map((key, index) => {
           return (
-            <span className="tag is-primary">
+            <span key={index} className="tag is-primary">
               {files[key].name}
               <button
                 className="delete"

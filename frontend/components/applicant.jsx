@@ -21,8 +21,6 @@ const Applicant = React.forwardRef((props, ref) => {
 
   const [expanded, setExpanded] = useState(false);
 
-  if (!score) score = Math.round(Math.random() * 99 + 1);
-
   const toggleExpansion = () => {
     setExpanded((prevExpanded) => !prevExpanded);
   };

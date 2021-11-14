@@ -34,7 +34,6 @@ const StoreProvider = ({ children }) => {
 
     //Stop showing loader
     setLoading(false);
-    console.log("hi");
   }, []);
 
   return (
