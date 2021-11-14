@@ -3,19 +3,34 @@ import { Accordion } from "./Accordion";
 import { faCircle, faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { StoreContext } from "../utils/store";
+import axios from "axios";
 
 const JobDescription = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
   const {
     selectedJd: [selectedJd, setSelectedJd],
+    candidates: [candidates, setCandidates],
   } = useContext(StoreContext);
 
   const toggleExpansion = () => {
     setExpanded((prevExpanded) => !prevExpanded);
   };
 
-  const handleSelect = (id) => {
+  const handleSelect = async (id) => {
     setSelectedJd(id);
+    if (id) {
+      const result = await axios.get(
+        `${process.env.NEXT_PUBLIC_BASE_URL}/getRankings/${id}/4`
+      );
+      const updatedScores = result?.data;
+      const updatedCandidates = candidates.map((item) => {
+        const exists = updatedScores.find(
+          (updatedItem) => item.id == updatedItem.id
+        );
+        return exists ? ((item.score = exists.score), item) : item;
+      });
+      setCandidates(updatedCandidates);
+    }
   };
 
   const isSelected = selectedJd === data.id;
@@ -35,7 +50,7 @@ const JobDescription = ({ data }) => {
               <FontAwesomeIcon
                 icon={faCheckCircle}
                 size="xs"
-                onClick={() => handleSelect(-1)}
+                onClick={() => handleSelect(null)}
                 className="is-clickable"
               />
             ) : (

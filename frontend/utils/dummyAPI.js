@@ -50,6 +50,7 @@ export let applicants = [
       achievements: "Achievements TBC",
       hobbies: "Hobbies TBC",
       score: 66,
+      id: 1,
     },
     {
       personal_details: {
@@ -107,6 +108,7 @@ export let applicants = [
       achievements: "Achievements TBC",
       hobbies: "Hobbies TBC",
       score: 99,
+      id: 2,
     },
     {
       personal_details: {
@@ -186,6 +188,7 @@ export let applicants = [
       achievements: "Achievements TBC",
       hobbies: "Hobbies TBC",
       score: 88,
+      id: 4,
     },
     {
       personal_details: {
@@ -264,6 +267,7 @@ export let applicants = [
       achievements: "Achievements TBC",
       hobbies: "Hobbies TBC",
       score: 75,
+      id: 3,
     },
   ],
   job_desc = [
@@ -322,6 +326,16 @@ export let applicants = [
       location: "Mumbai",
       experience: "1-2 Years",
       skills_req: ["C++", "Java"],
+      summary:
+        "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed.",
+    },
+    {
+      id: 6,
+      company: "Community Brands",
+      position: "FullStack Developer",
+      location: "Pune",
+      experience: "2-3 Years",
+      skills_req: ["React", "Java", "Node", "Javascript", ".Net", "C#"],
       summary:
         "The candidate should have a thorough knowledge if backend frameworks such as Django, NodeJS. knowledge of REST APIs and Python, JavaScript is needed.",
     },
