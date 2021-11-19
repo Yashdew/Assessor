@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Resume Analyser</title>
+        <title>Resume Analyser TESTING</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
