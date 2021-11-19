@@ -2,10 +2,10 @@ import Head from "next/head";
 import { useState, useContext } from "react";
 
 //import Applicant from "../components/Applicant";
-import Applicant from "../components/applicant"
+import Applicant from "../components/Applicant"
 import JobDescription from "../components/JobDescription";
 import { Loader } from "../components/Loader";
-import { Modal, JobDescriptionModalChildren } from "../components/modal";
+import { Modal, JobDescriptionModalChildren } from "../components/Modal";
 import { SearchBar } from "../components/SearchBar";
 
 import { getJobList } from "../utils/filterJobs";
