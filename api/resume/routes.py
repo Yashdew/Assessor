@@ -6,6 +6,7 @@ from flask_cors import CORS, cross_origin
 import os
 import json
 import nltk
+import random
 
 main = Blueprint('main', __name__)
 #nltk.download('popular')
@@ -40,3 +41,23 @@ def index():
             return json.dumps(dataList)
         except Exception as e:
             return error(str(e.args), 415)
+
+@main.route('/api/v1/getRankings/<int:id>/<int:total>')
+@cross_origin()
+# Creates json {score:98,id:1} of random score.
+def getRankings(id,total):
+    ids, scores = [], []
+
+    # Add random score to dict
+    for x in range(1,total+1):
+        scores.append(random.randint(100 - id * 12,100))
+
+    # Add ids
+    for x in range(1,total+1):
+        ids.append(x)
+
+    # Combine both dicts to get required json
+    updatedScores = [{"id": i, "score": s} for i, s in zip(ids, scores)]
+    return json.dumps(updatedScores)
+    
+    

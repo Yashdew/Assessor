@@ -1,6 +1,5 @@
-import { job_desc } from "../../components/dummy"
+import { job_desc } from "../../utils/dummyAPI";
 
 export default (req, res) => {
-    console.log('request for jobs')
-    res.status(200).json(job_desc)
-}
+  res.status(200).json(job_desc);
+};
