@@ -1,7 +1,8 @@
 import Head from "next/head";
 import { useState, useContext } from "react";
 
-import Applicant from "../components/Applicant";
+//import Applicant from "../components/Applicant";
+import Applicant from "../components/applicant"
 import JobDescription from "../components/JobDescription";
 import { Loader } from "../components/Loader";
 import { Modal, JobDescriptionModalChildren } from "../components/modal";
