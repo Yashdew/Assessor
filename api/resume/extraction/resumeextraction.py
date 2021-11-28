@@ -28,29 +28,31 @@ class ResumeExtract(object):
 
     def __get_details(self, fileName):
         # Modify and regroup extracted data
-        #print(fileName)
-        pdf = pdfx.PDFx(fileName)
-        links = pdf.get_references_as_dict()
-        data = ResumeParser(fileName).get_extracted_data()
-        filePath = os.path.dirname(os.path.abspath(fileName))
-        print(filePath)
-        pdfFileObj = open(filePath, encoding='utf-8').read()
-        print(pdfFileObj)
-        self.__details["personal_details"]['name'] = data["name"]
-        self.__details["personal_details"]['email'] = data["email"]
-        self.__details["personal_details"]['mobile_number'] = data["mobile_number"]
-        self.__details["skills"] = data["skills"]
-        self.__details["education"] = data["degree"]
-        self.__details["projects"] = utils.getProjects(pdfFileObj)
-        self.__details["achievements"] = utils.getAchievements()
-        self.__details["hobbies"] = utils.getHobbies()
-        self.__details["experience"] = data["experience"]
-        self.__details["no_of_pages"] = data["no_of_pages"]
-        self.__details["links"] = utils.getLinks(links)
-        self.__details["total_experience"] = data["total_experience"]
-        # For testing, replace with real algo later
-        self.__details["score"] = random.randint(60,100)
+        try:
+            pdf = pdfx.PDFx(fileName)
+            links = pdf.get_references_as_dict()
+            data = ResumeParser(fileName).get_extracted_data()
+            pdfFileObj = open(fileName, 'rb')
+           
+            self.__details["personal_details"]['name'] = data["name"]
+            self.__details["personal_details"]['email'] = data["email"]
+            self.__details["personal_details"]['mobile_number'] = data["mobile_number"]
+            self.__details["skills"] = data["skills"]
+            self.__details["education"] = data["degree"]
+            self.__details["projects"] = utils.getProjects(pdfFileObj)
+            self.__details["achievements"] = utils.getAchievements()
+            self.__details["hobbies"] = utils.getHobbies()
+            self.__details["experience"] = data["experience"]
+            self.__details["no_of_pages"] = data["no_of_pages"]
+            self.__details["links"] = utils.getLinks(links)
+            self.__details["total_experience"] = data["total_experience"]
+            # For testing, replace with real algo later
+            self.__details["score"] = random.randint(60,100)
 
+        except Exception as e: 
+            print(e)
+
+        pdfFileObj.close()
         return self.__details
 
     def get_data(self):
