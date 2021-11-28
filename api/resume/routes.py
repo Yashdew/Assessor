@@ -26,21 +26,22 @@ def api():
 def index():
     dataList = list()
     if request.method == 'POST':
-        try:
-            if not request.files or request.files['file'].filename == '':
-                raise Exception("Select a file")
-            for file in request.files.getlist('file'):
-                fileName = file.filename
-                if fileName.endswith('.pdf'):
-                    file.save(file.filename)
-                    ext = ResumeExtract(fileName)
-                    dataList.append(ext.get_data())
-                    os.remove(fileName)
-            if not dataList:
-                raise Exception("Select atleast 1 PDF file")        
-            return json.dumps(dataList)
-        except Exception as e:
-            return error(str(e.args), 415)
+        #try:
+        if not request.files or request.files['file'].filename == '':
+            raise Exception("Select a file")
+        for file in request.files.getlist('file'):
+            fileName = file.filename
+            #print(file)
+            if fileName.endswith('.pdf'):
+                file.save(file.filename)
+                ext = ResumeExtract(fileName)
+                dataList.append(ext.get_data())
+                os.remove(fileName)
+        if not dataList:
+            raise Exception("Select atleast 1 PDF file")        
+        return json.dumps(dataList)
+        # except Exception as e:
+        #     return error(str(e.args), 415)
 
 @main.route('/api/v1/getRankings/<int:id>/<int:total>')
 @cross_origin()
