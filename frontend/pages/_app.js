@@ -1,7 +1,11 @@
-import '../styles/index.scss'
-
+import "../styles/index.scss";
+import StoreProvider from "../utils/store";
 function Assessor({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <StoreProvider>
+      <Component {...pageProps} />
+    </StoreProvider>
+  );
 }
 
-export default Assessor
+export default Assessor;
