@@ -87,7 +87,7 @@ The route `/api/v1/postResume` accepts `POST` request with a file (pdf) attribut
         "personal_details": {
             "name": "Yash Dewangan",
             "email": "yashdewangan123456@gmail.com",
-            "mobile_number": "8602842290"
+            "mobile_number": "123456789"
         },
         "skills": [
             "Pandas",
